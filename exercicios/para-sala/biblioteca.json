@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Código Limpo",
+        "autor": "Martin"
+    },
+
+     {
+        "nome": "Javascript da Depressão",
+        "autor": "Nazaré"
+    },
+
+     {
+        "nome": "Programação para quem está feliz demais",
+        "autor": "Reprograma"
+    },
+
+     {
+        "nome": "JSON fácil",
+        "autor": "Milena"
+    },
+
+     {
+        "nome": "Nodejs para iniciantes",
+        "autor": "Professora Milena"
+    }
+
+]
