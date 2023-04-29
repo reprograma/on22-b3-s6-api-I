@@ -1,0 +1,24 @@
+[
+    {
+        "nome": "Codigo Limpo",
+        "autor": "Robert"
+    },
+    {
+        "nome": "Algoritimos E Logica de Programacao",
+        "autor": "Marco A."
+    },
+    {
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "autor": "J. K. Rowling"
+    },
+    {
+        "nome": "Animais Fantasticos e Onde Habitam: o Roteiro",
+        "autor": "Anna Vicentini"
+    },
+    {
+        "nome": "O Programador Progmatico: de aprendiz a mestre.",
+        "autor": "Andy Hunt"
+    }
+
+
+]
