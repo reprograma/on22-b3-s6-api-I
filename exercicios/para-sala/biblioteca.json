@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
         {
             "nome": "O Codigo Limpo",
             "autor": "Marti"
@@ -23,5 +24,27 @@
 "nome":"O vento que ventava",
 "autor": "Oya"
 }
+=======
+    {
+        "nome": "Codigo Limpo",
+        "autor": "Martin"
+    },
+    {
+        "nome": "Longo e Claro Rio",
+        "autor": "Liz Moore"
+    },
+    {
+        "nome": "O Nome do vento",
+        "autor": "Patrick Rothfuss"
+    },
+    {
+        "nome": "Duna",
+        "autor": "Frank Hebert"
+    },
+    {
+        "nome": "Torto Arado",
+        "autor": "Itamar Vieira Junior"
+    }
+>>>>>>> 233e4c395df0925748f213fe7062cf10751779f8
 
 ]
