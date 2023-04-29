@@ -47,8 +47,6 @@ O que veremos na aula de hoje?
 2. [Entendendo o que é o NPM](#2-entendendo-o-que-é-o-npm)
 3. [Instalando o Node na máquina](#3-instalando-o-node-na-máquina)
 
-### Exercício para Casa
-
 
 ## **HTTP**
 
