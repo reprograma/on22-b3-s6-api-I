@@ -1,12 +1,11 @@
 {
-  "name": "para-sala",
+  "name": "para-casa",
   "version": "1.0.0",
-  "description": "Nessa aula vamos focar em criar aplicações usando NodeJS, e montar e manipular arquivos JSON.",
+  "description": "- Nosso cliente é uma cafeteria que precisa de uma aplicação em NodeJS que exiba todos os itens do cardápio :coffee: :bread:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-    
   },
   "author": "",
   "license": "ISC"

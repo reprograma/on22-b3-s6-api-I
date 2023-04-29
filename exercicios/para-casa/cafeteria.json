@@ -1,0 +1,21 @@
+[
+    {
+      "nome": "Café com leite",
+      "descricao": "Café com leite quente e cremoso",
+      "preco": 5.50,
+      "vegano ou vegetariano": false
+    },
+    {
+      "nome": "Pão de queijo",
+      "descricao": "Pão de queijo assado na hora",
+      "preco": 3.50,
+      "vegano ou vegetariano": false
+    },
+    {
+      "nome": "Bolo de cenoura",
+      "descricao": "Bolo de cenoura com cobertura de chocolate",
+      "preco": 6.00,
+      "vegano ou vegetariano": true
+    }
+  ]
+  

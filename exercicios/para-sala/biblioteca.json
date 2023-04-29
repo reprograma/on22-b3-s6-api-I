@@ -1,4 +1,30 @@
 [
+<<<<<<< HEAD
+        {
+            "nome": "O Codigo Limpo",
+            "autor": "Marti"
+        }
+
+       ,{
+
+        "nome": "O Conto de Aia",
+        "autor": "Margaret Atwood"
+      }
+
+      ,{
+        "nome": "O grito",
+        "autor": "Eu, eu mesmo e Irene"
+      }
+
+      ,{
+        "nome": "Anne de Green Gables",
+        "autor": "Lucy M. Montgomery"
+      }
+,{
+"nome":"O vento que ventava",
+"autor": "Oya"
+}
+=======
     {
         "nome": "Codigo Limpo",
         "autor": "Martin"
@@ -19,5 +45,6 @@
         "nome": "Torto Arado",
         "autor": "Itamar Vieira Junior"
     }
+>>>>>>> 233e4c395df0925748f213fe7062cf10751779f8
 
 ]
