@@ -180,7 +180,7 @@ O mais comuns são:
 Bom, o Body é a parte mais importante da requisição, é nela que vai conter o nosso tão falado recurso, conteudo e etc.
 O body suporta qualquer formato de conteúdo: pode ser um texto simples, texto estruturado, imagem, pdf, audio, html, código javascript. Uma infinidade de coisas.
 
-Porém, um dos formatos mais comuns em API, principalmente em integrações entre serviços, é o JSON.
+Porém, um dos formatos mais comuns que usamos enquanto desenvolvoras backend é o JSON.
 
 **O JSON (JavaScript Object Notation - Notação de Objetos JavaScript)** é uma formatação leve de troca de dados. Para seres humanos, é fácil de ler e escrever. Para máquinas, é fácil de interpretar e gerar. 
 
