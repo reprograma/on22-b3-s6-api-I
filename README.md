@@ -54,8 +54,6 @@ O que veremos na aula de hoje?
 
 ### **1. Protocolo HTTP**
 
-Para nos comunicarmos com outros serviços via API usamos requisições HTTP.
-
 O HTTP (Hypertext Transfer Protocol) é um protocolo de comunicação usado para obtenção de recursos e conteúdo entre cliente e servidor na internet. Esses recursos que podem ser obtidos podem ser uma imagem, uma paǵina da web, um audio, um texto, o qualquer outro tipo de conteúdo que você possa imaginar. 
 
 O HTTP é a base de toda a internet, praticamente toda a nossa navegação é baseada em comunicações por meio desse protocolo. 
