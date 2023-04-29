@@ -46,7 +46,6 @@ O que veremos na aula de hoje?
 1. [Apresentando o NodeJS](#1-apresentando-o-nodejs)
 2. [Entendendo o que é o NPM](#2-entendendo-o-que-é-o-npm)
 3. [Instalando o Node na máquina](#3-instalando-o-node-na-máquina)
-4. [Entendendo o package.json](#4-entendendo-o-packagejson)
 
 ### Exercício para Casa
 
@@ -254,11 +253,15 @@ Isso mudou com o desenvolvimento do [Node.js](https://nodejs.org/pt-br/docs), qu
 
 
 ### **2. Entendendo o que é o NPM**
-Em todo desenvolvimento de software nós usamos bibliotecas, que são conjunto de funções, que nos auxiliam na execução de tarefas do código, como por exemplo, converter uma imagem em PDF ou até mesmo fazer uma requisição HTTP. Essa bibliotecas são um conjunto de arquivo disponibilizados na internet que devem estar dentro do diretório do projeto para serem usadas. E para que não tenhamos que baixar e mover pro projeto de forma manual, e nem se preocupar em refazer esse processo quando surge uma nova versão da biblioteca, o NodeJs vem com o NPM, Node Package Manager, que, como o próprio nome diz, é um gerenciado de pacotes do Node, que permite que vc configure as suas dependências de forma simplificada.
+Em todo desenvolvimento de software nós usamos bibliotecas, que são conjunto de funções, que nos auxiliam na execução de tarefas do código, como por exemplo, converter uma imagem em PDF ou até mesmo fazer uma requisição HTTP. Essa bibliotecas são um conjunto de arquivo disponibilizados na internet que devem estar dentro do diretório do projeto para serem usadas. E para que não tenhamos que baixar e mover pro projeto de forma manual, e nem se preocupar em refazer esse processo quando surge uma nova versão da biblioteca, o NodeJS vem com o NPM, Node Package Manager, que, como o próprio nome diz, é um gerenciado de pacotes do Node, que permite que vc configure as suas dependências de forma simplificada.
+
+> No desenvolvimento com NodeJS essas bibliotecas são chamadas de modules
 
 
 ### **3. Instalando o Node na máquina**
 Para desenvolver e rodar aplicações em NodeJS precisamos baixar o serviço na nossa máquina. É o que faremos agora.
+
+Para instalar o NodeJS acesse [esse link](https://nodejs.org/pt-br/download)
 
 </br>
 
@@ -273,12 +276,11 @@ Para desenvolver e rodar aplicações em NodeJS precisamos baixar o serviço na 
 ### Material da aula 
 
 ### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-
-https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [O que é o NPM?](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
+- [Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
+- [O que é NodeJS](https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/)
+- [Documentação HTTP](https://nodejs.org/pt-br/docs)
+- [Documentação NodeJS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
 
 
 <p align="center">
