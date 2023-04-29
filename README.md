@@ -273,7 +273,6 @@ Para instalar o NodeJS acesse [esse link](https://nodejs.org/pt-br/download)
 * [Exercicio para sala](/exercicios/para-sala)
 * [Exercicio para casa](/exercicios/para-casa)
 
-### Material da aula 
 
 ### Links Úteis
 - [O que é o NPM?](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
