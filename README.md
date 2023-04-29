@@ -6,11 +6,14 @@
 
 </br>
 
-Turma Online 22 - B3 | Back-end | Semana 6 | 2023 | Professora Milena Gomes
+Turma Online 22 - B3 | Back-end | Semana 6 | 2023 | [Professora Milena Gomes](https://www.linkedin.com/in/milena-gr/)
 
 ### Apresentação
 
 ![Screenshot from 2023-04-28 18-13-47](https://user-images.githubusercontent.com/27566113/235255404-c121b6bb-642e-4e17-9d16-077dda7d4263.png)
+
+
+> Meu Linkedin está [aqui](https://www.linkedin.com/in/milena-gr/). Fiquem à vontade para mandar invite e me mandar msg :blush: 
 
 
 ### Instruções
@@ -18,14 +21,12 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras instrucoes caso necessario]
 
 ### Resumo
 O que veremos na aula de hoje?
 * HTTP
 * NodeJS
 
-</br>
 
 ## **Conteúdo**
 
@@ -42,17 +43,15 @@ O que veremos na aula de hoje?
 
 
 ### NodeJS
-1. Apresentando o NodeJS
-2. Entendendo o que é o NPM
-3. Instalando o Node na máquina
-4. Entendendo o packege.json
+1. [Apresentando o NodeJS](#1-apresentando-o-nodejs)
+2. [Entendendo o que é o NPM](#2-entendendo-o-que-é-o-npm)
+3. [Instalando o Node na máquina](#3-instalando-o-node-na-máquina)
+4. [Entendendo o package.json](#4-entendendo-o-packagejson)
 
 ### Exercício para Casa
 
 
 ## **HTTP**
-
-</br>
 
 ### **1. Protocolo HTTP**
 
@@ -102,7 +101,7 @@ A URL é o endereço de um recurso na internet, usamos ela o tempo todo enquanto
 
 ![mdn-url-all](https://user-images.githubusercontent.com/27566113/235250525-6465abd8-6403-4836-a317-e7c40525c700.png)
 
-Então lá atrás quando falamos do path/rota, estamos falando desse trecho da url, é importante o entendimento do conceito, pois ele é muito mais relevante, enquanto estamos construindo APIs, do que a URL inteira.
+Então lá atrás quando falamos do path/rota, estamos falando desse trecho da url.
 
 </br>
 
@@ -132,16 +131,6 @@ Porém os mais utilizados e os que focaremos nessa aula são o GET, POST, PATCH,
 **PUT:** usado quando queremos atualizar todos os dados de um recurso existente. Quando entramos no formulário completo com todos os dados do nosso cadastro aberto pra edição e atualizamos alguns dados, o navegado usa o método PUT enviando todos os dados novamente.
 
 **DELETE:** usamos quando queremos deletar um recurso, por exemplo quando deletamos um foto do feed do Instagram.
-
-Fazendo um paralelo com a sigla CRUD temos o sequinte esquema
-
-**C** (create) - POST
-
-**R** (read) - GET
-
-**U** (update) - PATCH/PUT
-
-**D** (delete) - DELETE
 
 </br>
 
@@ -241,25 +230,52 @@ Vamos olhar novamente para as nossas imagens de exemplo, agora que já conhecemo
 
 ![HTTP_ResponseMessageExample](https://user-images.githubusercontent.com/27566113/235250612-c3f9a1cb-d8d7-4830-b18d-4fb859de18cd.png)
 
+</br>
+
+> Você pode encontrar a documentação completa do HTTP [aqui](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
 
 
 
 ### **4. Explorando o HTTP pelo navegador**
 
+Existe uma ferramenta escondida nos navegadores, que permite que vejamos toda essa mágica do HTTP acontecendo durante a navegação na WEB. Essa ferramenta faz parte da rotina de nós desenvolvedoras e ela oferece várias funcionalidades que nos ajudam principalmente quando estavamos desenvolvendo a conexão do frontend com o backend.
+
+O nome dessa ferramenta é Devtools e para acessá-la basta apenas apertar o F12 na pagina a ser inspecionada. 
 
 
 
+
+## **NodeJS**
+
+### **1. Apresentando o NodeJS**
+Como sabemos o Javascript é uma linguagem que foi criada para a internet, para facilitar a criação de sites dinâmicos e interativo, rodando apenas navegador.  
+
+Isso mudou com o desenvolvimento do [Node.js](https://nodejs.org/pt-br/docs), que é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador. Com ele, é possível criar praticamente qualquer tipo de aplicações web, desde servidores para sites estáticos e dinâmicos, até APIs e sistemas baseados em microserviços.
+
+
+### **2. Entendendo o que é o NPM**
+Em todo desenvolvimento de software nós usamos bibliotecas, que são conjunto de funções, que nos auxiliam na execução de tarefas do código, como por exemplo, converter uma imagem em PDF ou até mesmo fazer uma requisição HTTP. Essa bibliotecas são um conjunto de arquivo disponibilizados na internet que devem estar dentro do diretório do projeto para serem usadas. E para que não tenhamos que baixar e mover pro projeto de forma manual, e nem se preocupar em refazer esse processo quando surge uma nova versão da biblioteca, o NodeJs vem com o NPM, Node Package Manager, que, como o próprio nome diz, é um gerenciado de pacotes do Node, que permite que vc configure as suas dependências de forma simplificada.
+
+
+### **3. Instalando o Node na máquina**
+Para desenvolver e rodar aplicações em NodeJS precisamos baixar o serviço na nossa máquina. É o que faremos agora.
+
+</br>
+
+> Você pode encontrar a documentação completa do NodeJS [aqui](https://nodejs.org/pt-br/docs)
 
 
 ***
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+* [Exercicio para sala](/exercicios/para-sala)
+* [Exercicio para casa](/exercicios/para-casa)
 
 ### Material da aula 
 
 ### Links Úteis
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
+
+https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)
 - [Lorem Ipsum](https://www.lipsum.com/feed/html)

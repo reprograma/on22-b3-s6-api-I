@@ -2,9 +2,15 @@
 
 ## Nome do Exercicio
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Nosso cliente é uma cafeteria que precisa de uma aplicação em NodeJS que exiba todos os itens do cardápio :coffee: :bread: 
+
+Instruções:
+
+- Cada item do cardápio tem que ter um _nome_, _descrição_, _preço_ e _uma indicação se o item é vegano ou vegetariano_. 
+- Todos os itens devem ser exibidos no console quando rodarmos a aplicação.
+- Fiquem à vontade para escolherem o nome que quiser para a nossa cafeteria cliente :blush:
+
+> Aproveite para fazer com calma as coisas aprendidas no curso até então. Usem os exercicios anteriores como documentação de consulta :smiley:
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
