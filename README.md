@@ -22,18 +22,12 @@ Antes de começar, vamos organizar nosso setup.
 
 ### Resumo
 O que veremos na aula de hoje?
-* API
 * HTTP
-* REST
-* Testando APIs com Postman
-* Criando APIs usando Express e NodeJs
+* NodeJS
 
 </br>
 
 ## **Conteúdo**
-### API 
-1. [Nossas aplicações precisam se comunicar com o mundo...](#1-nossas-aplicações-precisam-se-comunicar-com-o-mundo)
-2. [O que são APIs?](#2-o-que-são-apis)
 
 ### HTTP 
 1. [Protocolo HTTP](#1-protocolo-http)
@@ -43,40 +37,18 @@ O que veremos na aula de hoje?
     * [Headers](#headers)
     * [Status Code](#status-code)
     * [Body](#body)
-### RECAPITULANDO
-1. O que é preciso saber para usar uma API?
+3. [Recapitulando](#3-recapitulando)
+4. [Explorando o HTTP pelo navegador](#4-explorando-o-http-pelo-navegador)
 
-### NODE.js
-1. O que é o NODE.js
-2. 
 
-</br>
+### NodeJS
+1. Apresentando o NodeJS
+2. Entendendo o que é o NPM
+3. Instalando o Node na máquina
+4. Entendendo o packege.json
 
-## **API**
+### Exercício para Casa
 
-### **1. Nossas aplicações precisam se comunicar com o mundo...**
-Quando criamos um código, um algoritmo, ou alguma aplicação mais complexas, nós dependemos de alguma comunicação com o mundo externo, seja para receber ou consultar algum dado, receber alguma interação vinda do usuário ou de outra aplicação, ou seja para interagir com outra aplicação também. São pouco os casos em que há applicações reais que não possuam nenhuma interação para realizar determinada ação ao qual foi programada.
-
-Dito isso, umas da interações mais comuns, principalmente com o advento da internet, é a interação por meio de APIs 
-
-### **2. O que são APIs?**
-
-API é um acronimo para Application Programming Interface, que em tradução livre significa: Interface de Programação de Applicação, mas isso não nos diz muita coisa...
-
-Como eu falei acima, a esmagadora maioria das aplicações precisam interações externas para que elas cumpram o seu propósito, a sua função. Muitas vezes essa interação se dá por meio de um usuário que inputa um dado no sistema, que clica num botão, mas como fazemos quando essa interação tem que partir de uma outra aplicação? Pensando num exemplo: 
-- Nós temos uma loja virtual, com um frontend bonitão e um backend servindo esse front. Quando recebemos um pedido nós temos que processar o pagamento desse pedido. Imaginando que seja um pedido feito com cartão de crédito MaterCard, precisamos entrar em contato com essa operadora para creditar esse valor do cartão. 
-
-Como fariámos essa comunicação com a Mastercard? Será que teremos pessoas por trás entrando no sistema da Mastercard e registrando essa compra? Pensando numa Blackfriday, ou no tempo que leva pra compra aparecer no app do banco, faz sentido uma interação humana nesse processo? Com certeza, não.
-
-Muito provavel que esse processo se dê por meio de comunicação do backend da minha loja, diretamente com o sistema da Mastercard e a forma como essa comunicação acontece, é por meio de APIs.
-
-Então dando uma explicação bem simples, APIs são funcionalidades implementadas em uma aplicação que são disponibilizadas para que sejam utilizadas por outras aplicações, de forma simplificada e sem que seja necessário conhecer detalhes da implementação da funcionalidade.
-
-No nosso exemplo, a Mastercard possui uma API com a funcionalidade de registrar compras que pode ser consumida pelo backend da minha loja, sem que o meu desenvolvedor precise saber de detalhes da implementação dessa API, como, que linguagem foi utilizada, onde está hospedado, quais bibliotecas usa. Enfim, não precisamos saber nada disso. 
-
-Mas o que é preciso saber e conhecer para se comunicar via API? É o que saberemos no fim da explicação de outro conceito chave: o HTTP
-
-</br>
 
 ## **HTTP**
 
@@ -97,6 +69,8 @@ Em uma conexão HTTP nós temos alguns componentes:
 - Requisição (request): solicitação de recurso/conteúdo
 - Resposta (response):  resposta da solicitação de recurso/conteúdo
 
+![104128631-ca559580-538e-11eb-8c01-ea90185db2eb](https://user-images.githubusercontent.com/27566113/235280863-84da73df-55c8-48b7-820e-9a179dff588d.png)
+
 
 Por ser um protocolo, O HTTP estabelece algumas regras e padrões que falaremos a seguir:
 
@@ -105,6 +79,7 @@ Por ser um protocolo, O HTTP estabelece algumas regras e padrões que falaremos 
 ### **2. Request/Response**
 
 Analisando as duas primeiras letras da sigla, o H T de Hypertext, nós temos uma ideia como as coisas acontecem na pratica, "por debaixo do panos" como costumamos dizer. A comunicação HTTP se dá por meio de requisições e respostas que são trasmitidas via texto estruturado em um formato padronizado:
+
 ![HTTP_RequestMessageExample](https://user-images.githubusercontent.com/27566113/235250577-4b90abeb-942f-4205-a16f-52745049a3b5.png)
 
 
@@ -254,12 +229,22 @@ O JSON tambem pode ser uma lista de objetos, onde cada objeto é separados um do
 ]
 ```
 
-### **Recapitulando**
+### **3. Recapitulando**
 
-API são funcionalidades implementadas em uma aplicação, que são disponibilizadas para que outras aplicações possa usá-las por meio do protocolo HTTP, fazendo envio de requests e obtendo retorno nas responses.
-O que é preciso saber para
+Vamos olhar novamente para as nossas imagens de exemplo, agora que já conhecemos detalhes do HTTP.
+
+![104128631-ca559580-538e-11eb-8c01-ea90185db2eb](https://user-images.githubusercontent.com/27566113/235280863-84da73df-55c8-48b7-820e-9a179dff588d.png)
 
 
+![HTTP_RequestMessageExample](https://user-images.githubusercontent.com/27566113/235250577-4b90abeb-942f-4205-a16f-52745049a3b5.png)
+
+
+![HTTP_ResponseMessageExample](https://user-images.githubusercontent.com/27566113/235250612-c3f9a1cb-d8d7-4830-b18d-4fb859de18cd.png)
+
+
+
+
+### **4. Explorando o HTTP pelo navegador**
 
 
 
