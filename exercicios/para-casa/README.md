@@ -10,6 +10,10 @@ Instruções:
 - Todos os itens devem ser exibidos no console quando rodarmos a aplicação.
 - Fiquem à vontade para escolherem o nome que quiser para a nossa cafeteria cliente :blush:
 
+- Criar o novo projeto do zero usando no `npm init` dentro da pasta para-casa
+- Rodar o `npm install` para gerar o `package-lock.json`
+- Adicionar o `script` de start no `package.json`
+
 > Aproveite para fazer com calma as coisas aprendidas no curso até então. Usem os exercicios anteriores como documentação de consulta :smiley:
 ---
 
