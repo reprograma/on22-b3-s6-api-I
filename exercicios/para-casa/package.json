@@ -1,0 +1,26 @@
+{
+  "name": "exercicio-para-casa",
+  "version": "1.0.0",
+  "description": "implementacão de um aplicativo para uma cafeteria. composto de um app.js com o modulo principal e um cardápio em .json (para uso pelo app).",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearlyerika/on22-b3-s6-api-I.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "npm",
+    "leaning",
+    "fundamentals"
+  ],
+  "author": "_nearlyerika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nearlyerika/on22-b3-s6-api-I/issues"
+  },
+  "homepage": "https://github.com/nearlyerika/on22-b3-s6-api-I#readme"
+}
