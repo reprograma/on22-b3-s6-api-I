@@ -1,4 +1,15 @@
-[    {        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",        "author": "Douglas Hofstadter",        "editor": "Basic Books",        "price": 24.99,        "tags": [            "mathematics",            "logic",            "music",            "art",            "philosophy"        ]
+[
+    {
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "author": "Douglas Hofstadter",
+        "editor": "Basic Books",
+        "price": 24.99,
+        "tags": ["mathematics",
+            "logic",
+            "music",
+            "art",
+            "philosophy"
+        ]
     },
     {
         "title": "Science of Logic",
