@@ -1,0 +1,202 @@
+[
+    {
+        "cafes": [
+            {
+                "name": "Café coado",
+                "price": 3.5,
+                "description": "Café simples e tradicional, coado na hora",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": false
+            },
+            {
+                "name": "Café expresso",
+                "price": 4.0,
+                "description": "Café forte e encorpado, com sabor intenso",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": false
+            },
+            {
+                "name": "Café com leite",
+                "price": 5.5,
+                "description": "Café suave com leite, perfeito para um início de dia",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": false
+            },
+            {
+                "name": "Café latte",
+                "price": 6.0,
+                "description": "Café com leite cremoso, ideal para uma tarde tranquila",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": false
+            },
+            {
+                "name": "Cappuccino",
+                "price": 7.5,
+                "description": "Café expresso com espuma de leite e chocolate em pó",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": false
+            },
+            {
+                "name": "Affogato",
+                "price": 9.5,
+                "description": "Café expresso servido com sorvete de baunilha",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": true
+            },
+            {
+                "name": "Café com cardamomo",
+                "price": 8.5,
+                "description": "Café com um toque de cardamomo, para um sabor exótico",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": true
+            },
+            {
+                "name": "Café com laranja e canela",
+                "price": 9.0,
+                "description": "Café expresso com laranja e canela, para uma combinação de sabores única",
+                "isVegan": false,
+                "isExp": true
+            },
+            {
+                "name": "Café com abacaxi e hortelã",
+                "price": 10.0,
+                "description": "Café com um toque tropical de abacaxi e hortelã",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": true
+            },
+            {
+                "name": "Café com licor de amêndoas",
+                "price": 11.0,
+                "description": "Café expresso com um toque de licor de amêndoas, para um sabor sofisticado e único",
+                "isVegan": false,
+                "isVegetarian": true,
+                "isExp": true
+            }
+        ]
+    },
+    { 
+        "cakes": [
+            {
+                "name": "Torta de banana",
+                "price": 9.0,
+                "description": "Torta cremosa com bananas frescas e um toque de canela, uma opção vegana e deliciosa",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "name": "Torta de limão",
+                "price": 8.5,
+                "description": "Torta cremosa com o sabor cítrico e refrescante do limão",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "name": "Torta de maçã",
+                "price": 9.5,
+                "description": "Torta clássica com pedaços de maçã e um toque de canela",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "name": "Torta de chocolate",
+                "price": 10.0,
+                "description": "Torta intensa e cremosa de chocolate, perfeita para os chocólatras",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "name": "Torta de cookies",
+                "price": 10.5,
+                "description": "Torta crocante com pedaços de cookies, ideal para os amantes de doces com textura",
+                "isVegan": false,
+                "isVegetarian": true
+            }
+        ]
+    },
+    {
+        "sandwitches": [
+            {
+                "name": "Sanduíche de peru e queijo",
+                "price": 9.0,
+                "description": "Sanduíche clássico com fatias de peru e queijo derretido, servido quente.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "name": "Sanduíche de frango e alface",
+                "price": 8.5,
+                "description": "Sanduíche saudável com fatias de frango grelhado e folhas de alface fresca.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "name": "Sanduíche de pão integral com pasta de tofu",
+                "price": 10.5,
+                "description": "Sanduíche vegano e saudável com pasta de tofu, cenoura e pepino, servido em pão integral.",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "name": "Sanduíche vegetariano de berinjela grelhada",
+                "price": 11.0,
+                "description": "Sanduíche vegetariano com fatias de berinjela grelhada, tomate e cebola, servido em pão integral.",
+                "isVegan": true,
+                "isVegetarian": true
+            }
+        ]
+    },
+    {
+        "savories": [
+            {
+              "name": "Coxinha de frango",
+              "price": 4.50,
+              "description": "Coxinha de frango com massa crocante e recheio suculento",
+              "isVegan": false,
+              "isVegetarian": false
+            },
+            {
+              "name": "Pastel de carne",
+              "price": 3.50,
+              "description": "Pastel de carne com massa fina e recheio saboroso",
+              "isVegan": false,
+              "isVegetarian": false
+            },
+            {
+              "name": "Empadão de palmito",
+              "price": 5.00,
+              "description": "Empadão de palmito com massa leve e recheio cremoso",
+              "isVegan": false,
+              "isVegetarian": true
+            },
+            {
+              "name": "Quibe de abóbora",
+              "price": 4.50,
+              "description": "Quibe de abóbora com recheio de castanha de caju e especiarias",
+              "isVegan": true,
+              "isVegetarian": true
+            },
+            {
+              "name": "Esfiha de espinafre",
+              "price": 3.50,
+              "description": "Esfiha de espinafre com massa leve e recheio cremoso",
+              "isVegan": true,
+              "isVegetarian": true
+            },
+            {
+              "name": "Coxinha de jaca",
+              "price": 4.50,
+              "description": "Coxinha de jaca com massa crocante e recheio saboroso",
+              "isVegan": true,
+              "isVegetarian": true
+            }
+        ]
+    }
+]
