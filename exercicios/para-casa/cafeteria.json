@@ -1,0 +1,44 @@
+[
+    {
+        "nome":" Café Espresso",
+        "descricao":"Preparado aplicando um jato de água quente, durante 25 a 30 segundos através de uma camada prensada de 7 gramas de café moído.",
+        "preco":"8.00",
+        "vegano" : true,
+        "vegetariano": false 
+    },
+    {
+        "nome":"Cappuccino Tradicional",
+        "descricao": "Café + Leite Vaporizado. Mas se quiser pode pedir com Canela ou raspas de chocolate.",
+        "preco":"13.00",
+        "vegano":false,
+        "vegetariano":true 
+    },
+    {
+        "nome":"Frape de café",
+        "descricao":"Café, gelo e um pouco de leite condensado. Com ou sem Chantili.",
+        "preco":"20.00",
+        "vegano": false,
+        "vegetariano": true 
+    },
+    {
+        "nome":"Chocolate gelado ou quente",
+        "descricao":"Feito com chocolate de verdade!",
+        "preco":"17.00",
+        "vegano": false,
+        "vegetariano": true   
+    },
+    {
+        "nome":"Pão de queijo",
+        "descricao":"Nossa receita original da casa e premiada. Porção com 6 unidades.",
+        "preco":"8.90",
+        "vegano": false,
+        "vegetariano": true  
+    },
+    {
+        "nome":"Torta mousse de chocolate",
+        "descricao":"O doce perfeito para acompanhar uma xícara de café.",
+        "preco":"12.00",
+        "vegano": true,
+        "vegetariano": false  
+    }
+]
