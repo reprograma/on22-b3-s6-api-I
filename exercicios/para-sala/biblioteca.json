@@ -1,23 +1,24 @@
 [
     {
         "nome": "Codigo Limpo",
-        "autor": "Martin"
+        "autor": "Robert"
     },
     {
-        "nome": "Longo e Claro Rio",
-        "autor": "Liz Moore"
+        "nome": "Algoritimos E Logica de Programacao",
+        "autor": "Marco A."
     },
     {
-        "nome": "O Nome do vento",
-        "autor": "Patrick Rothfuss"
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "autor": "J. K. Rowling"
     },
     {
-        "nome": "Duna",
-        "autor": "Frank Hebert"
+        "nome": "Animais Fantasticos e Onde Habitam: o Roteiro",
+        "autor": "Anna Vicentini"
     },
     {
-        "nome": "Torto Arado",
-        "autor": "Itamar Vieira Junior"
+        "nome": "O Programador Progmatico: de aprendiz a mestre.",
+        "autor": "Andy Hunt"
     }
+
 
 ]
