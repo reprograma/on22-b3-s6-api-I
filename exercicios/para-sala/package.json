@@ -1,7 +1,11 @@
 {
   "name": "para-sala",
   "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "Nessa aula vamos focar em criar aplicações usando NodeJS, e montar e manipular arquivos JSON.",
+=======
   "description": "## Nome do Exercicio",
+>>>>>>> 233e4c395df0925748f213fe7062cf10751779f8
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
