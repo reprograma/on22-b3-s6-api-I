@@ -1,0 +1,21 @@
+[
+    {
+        "nome": "Café",
+        "descricao": "Café Preto Sem Açúcar",
+        "preco": 1.00,
+        "especificacao": "vegano"
+    },
+    {
+        "nome": "Café com Leite",
+        "descricao": "Café com leite e açúcar",
+        "preco": 2.5,
+        "especificacao": "vegetariano"
+    },
+    {
+        "nome": "Achocolatado",
+        "descricao": "nescau com leite. ",
+        "preco": 4.0,
+        "especificacao": "vegetariano"
+    }
+
+]
