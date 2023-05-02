@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "Misto quente",
+        "descricao": "Pção de forma com queijo e presunto",
+        "preco": 5.99,
+        "vegano": false,
+        "vegetariano": false
+    },
+    {
+        "nome":"Capuccino",
+        "descricao": "Espresso com leite",
+        "preco": 4.50,
+        "vegano": false,
+        "vegetariano": true
+    },
+    {
+        "nome": "Torta de Limão",
+        "descricao": "Torta de limão feita com limão sicilioano",
+        "preco": 10.90,
+        "vegano": false,
+        "vegetariano": true
+    },
+    {
+        "nome": "Banana feliz",
+        "descricao": "Banana cortada em rodelas com chia e canela ",
+        "preco": 3.99,
+        "vegano": true,
+        "vegetariano": true
+    },
+    {
+        "nome": "sanduiche de frango",
+        "descricao": "Sanduíche com frango, alface, tomate e maionese",
+        "preco": 10.90,
+        "vegano": false,
+        "vegetariano": true
+    }
+]
