@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "nome": "Morgana Evellyn",
         "autor": "bernardino"
     },
@@ -19,9 +18,9 @@
     {
         "nome": "Aaron Levi",
         "autor": "Nascimento"
-    }
+    },
     
-=======
+    {
         "nome": "Codigo Limpo",
         "autor": "Martin"
     },
@@ -42,5 +41,4 @@
         "autor": "Itamar Vieira Junior"
     }
 
->>>>>>> 233e4c395df0925748f213fe7062cf10751779f8
 ]
