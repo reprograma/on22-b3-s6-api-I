@@ -1,0 +1,40 @@
+[
+    {
+        "nome": "Rosquinha de Chocolate",
+        "descrição": "tem o formato redondo, contém glutem, contém lactose, cobertura de chocolate",
+        "preço": 3,
+        "indicação": "este item nao é vegano/vegetariano"
+    },
+    {
+        "nome": "Bolo Mole",
+        "descrição": "tem o formato redondo, contém glutem, contém lactose",
+        "preço": 2,
+        "indicação": "este item nao é vegano/vegetariano"
+    },
+    {
+        "nome": "Torta de Legumes",
+        "descrição": "tem o formato redondo, contém glutem, não contém lactose, contém vegetais",
+        "preço": 4,
+        "indicação": "este item é vegano"
+        
+    },
+    {
+        "nome": "Café Expresso",
+        "descrição": "Café de origem Brasil, contém cafeina,",
+        "preço": 1,
+        "indicação": "este item nao é vegano/vegetariano"
+    },
+    {
+        "nome": "Café com Leite",
+        "descrição": "Café de origem Brasil, contém cafeina, contém lactose",
+        "preço": 2,
+        "indicação": "este item nao é vegano/vegetariano"
+    },
+    {
+        "nome": "Chá de Camomila",
+        "descrição": "Chá de Camomila origem Brasil, contém cafeina,",
+        "preço": 2,
+        "indicação": "este item nao é vegano/vegetariano"
+    }
+
+]
