@@ -35,13 +35,29 @@ class Cafeteria{
 
         cafes.forEach(cafe => {
             if (cafe.isVegan == true) {
-                veganTemplate = "- Vegano ✓"
+                veganTemplate = "Vegano ✓"
             } else {
-                veganTemplate = "- Não é Vegano!"
+                veganTemplate = "Não é Vegano!"
             }
-            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)} ${veganTemplate}\n${cafe.description}\n`)
+            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)}\n${cafe.description} - ${veganTemplate}\n`)
         })
     }
+
+    listarSanduiches() {
+        let sandwiches = this.menu.flat().filter(item => item.foodType === "sandwich")
+        let veganTemplate
+      
+        console.log("Aqui está nosso cardápio de sanduíches:\n")
+      
+        sandwiches.forEach(sandwich => {
+            if (sandwich.isVegan == true) {
+                veganTemplate = "Vegano ✓"
+            } else {
+                veganTemplate = "Não é Vegano!"
+            }
+            console.log(`${sandwich.name} - R$ ${sandwich.price.toFixed(2)}\n${sandwich.description} - ${veganTemplate}\n`)
+        })
+    }   
 }
 
 const cafeteria = new Cafeteria("Erika's Coffee Co.")

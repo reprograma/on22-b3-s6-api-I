@@ -120,15 +120,15 @@
             "foodType": "sandwich",
             "name": "Sanduíche de queijo e salada",
             "price": 10.5,
-            "description": "Com queijo, cenoura, cabola, tomate e manionese, temperado e servido em pão integral.",
+            "description": "Feito com queijo, cenoura, cabola, tomate e manionese, temperado e servido em pão integral.",
             "isVegan": false,
             "isVegetarian": true
         },
         {
             "foodType": "sandwich",
-            "name": "Sanduíche vegetariano de berinjela grelhada",
+            "name": "Sanduíche vegano de berinjela grelhada",
             "price": 11.0,
-            "description": "Sanduíche vegano de berinjela grelhada, tomate e cebola, servido em pão integral.",
+            "description": "Feito com fetias de berinjela grelhada, tomate e cebola, servido em pão integral.",
             "isVegan": true,
             "isVegetarian": true
         }
