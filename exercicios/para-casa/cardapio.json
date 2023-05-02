@@ -1,0 +1,42 @@
+[{
+    "nome": "Acarajé",
+    "descricao": "Bolinho de feijão fradinho moído frito no azeite dendê, acompanhado por molho de pimenta, vatapá, salada vinagrete e camarão seco.",
+    "preco" : 15,
+    "eh_vegano_ou_vegetariano": false
+},
+{
+    "nome": "Abará",
+    "descricao": "Bolinho de feijão fradinho moído, cozido em banho-maria, embrulhado em folha de bananeira.",
+    "preco" : 15,
+    "eh_vegano_ou_vegetariano": false
+},
+{
+    "nome": "Bolinho de Estudante",
+    "descricao": "Bolinho preparado com tapioca granulada e coco, frito e envolto em açúcar e canela",
+    "preco" : 10,
+    "eh_vegano_ou_vegetariano": true
+},
+{
+    "nome": "Cocada",
+    "descricao": "Doce à base de coco seco e açúcar.",
+    "preco" : 5,
+    "eh_vegano_ou_vegetariano": true
+},
+{
+    "nome": "Lelê",
+    "descricao": "Quitute feito com milho verde e leite de coco",
+    "preco" : 9,
+    "eh_vegano_ou_vegetariano": true
+},
+{
+    "nome": "Pé de moleque",
+    "descricao": "Doce feito a partir da mistura de amendoim torrado com rapadura.",
+    "preco" : 5,
+    "eh_vegano_ou_vegetariano": true
+},
+{
+    "nome": "Passarinha",
+    "descricao": "Baço bovino frito.",
+    "preco" : 20,
+    "eh_vegano_ou_vegetariano": false
+}]
