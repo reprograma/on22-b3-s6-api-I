@@ -8,32 +8,38 @@ class Cafeteria{
     }
 
     listarMenu() {
-
         let menuCompleto = []
-
-        for (let objeto of menu) {
-            for (let chave in objeto) {
-                if (Array.isArray(objeto[chave])) {
-                    for (let elemento of objeto[chave]) {
-                        menuCompleto.push(elemento)
-                    }
-                }
-            }
+        
+        for (let categoria in menu) {
+            menuCompleto.push(...menu[categoria])
         }
+      
         console.log("Aqui está nosso cardápio completo:\n")
-
+      
         menuCompleto.forEach(item => {
-            console.log(` ${item.name} - ${item.description} - Por: R$ ${item.price.toFixed(2)}`)
+            let veganTemplate
+            if(item.isVegan == true) {
+                veganTemplate = "- Vegano ✓"
+            } else {
+                veganTemplate = "- Não é Vegano!"
+            }
+            console.log(`${item.name} - Por: R$ ${item.price.toFixed(2)} ${veganTemplate}\n${item.description}\n`)
         })
     }
 
     listarCafes() {
-        let cafes = this.menu[0].cafes
+        let cafes = this.menu.flat().filter(item => item.foodType === "coffee")
+        let veganTemplate
 
         console.log("Aqui está nosso cardápio de cafés:\n")
 
         cafes.forEach(cafe => {
-            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)}\n${cafe.description}\n`)
+            if (cafe.isVegan == true) {
+                veganTemplate = "- Vegano ✓"
+            } else {
+                veganTemplate = "- Não é Vegano!"
+            }
+            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)} ${veganTemplate}\n${cafe.description}\n`)
         })
     }
 }
