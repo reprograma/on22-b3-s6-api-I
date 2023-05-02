@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Capuccino",
+        "descricao": "Café com leite pulverizado",
+        "preco": 20,
+        "tipo": "Vegano"
+    },
+    {
+        "nome": "Pão com lentinha",
+        "descricao": "Pão caseiro com lentilha",
+        "preco": 22.50,
+        "tipo": "Vegano"
+    },
+
+    {
+        "nome": "Café com chocolate",
+        "descricao": "Café com chocolate meio amargo",
+        "preco": 33,
+        "tipo": "Vegano"
+    },
+    {
+        "nome": "Pão francês",
+        "descricao": "prão francês",
+        "preco": 15,
+        "tipo": "Vegano"
+    }
+]
