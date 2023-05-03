@@ -1,4 +1,33 @@
 [
+<<<<<<< HEAD
+   {
+    "nome": "Codigo Limpo",
+    "autor": "Martin"
+   },
+
+   {
+    "nome": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K Rowling"
+   },
+
+   {
+    "nome": "Amerika",
+    "autor": "Franz Kafka"
+   },
+
+   {
+    "nome": "Suite Francesa",
+    "autor": "Irene Nemirovsky"
+   },
+
+   {
+    "nome": "Almas Mortas",
+    "autor": "Nikolai Gogol"
+   }
+
+   
+
+=======
     {
         "nome": "Codigo Limpo",
         "autor": "Martin"
@@ -19,5 +48,6 @@
         "nome": "Torto Arado",
         "autor": "Itamar Vieira Junior"
     }
+>>>>>>> 233e4c395df0925748f213fe7062cf10751779f8
 
 ]
