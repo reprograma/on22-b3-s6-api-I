@@ -1,10 +1,19 @@
-const livros = require("./biblioteca.json")
+const books = require("./library.json")
 
-console.log("Biblioteca da Meia Noite")
-console.log("Livros disponíveis: ")
-livros.forEach((livro) => {
-    console.log("----")
-    console.log(`Título: ${livro.nome}`)
-    console.log("Autor: " + livro.autor)
-    console.log(livro)
+function printBookDetails(book) {
+
+    const tags = book.tags.join(', ')
+
+    console.log(`Here are the details for "${book.title}":
+
+    Author: ${book.author}
+    Editor: ${book.editor}
+    Price: ${book.price}
+    Tags: ${tags}
+    `
+    )
+}
+
+books.forEach(book => {
+    printBookDetails(book)
 })
