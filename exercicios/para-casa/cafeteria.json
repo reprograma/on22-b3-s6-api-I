@@ -1,0 +1,49 @@
+[
+
+{
+    "nome": "Espresso",
+    "descricao": "Extração Italiana",
+    "preco": 7.50
+},
+ 
+{
+    "nome": "Americano",
+    "descricao": "Café preparado com espresso com adição de água quente",
+    "preco": 9.50
+},
+
+{
+    "nome": "Latte",
+    "descricao": "Espresso com adição de leite vaporizado",
+    "preco": 14.50
+},
+
+{
+    "nome":"Croissant de Queijo",
+    "descricao":"Recheado com queijo gouda",
+    "preco": 23.90,
+    "Vegano":false,
+    "Vegetariano":false
+    
+},
+
+{
+   "nome": "Sand de Pao de Queijo",
+   "descricao": "Sanduiche de pao de queijo a base de castanha",
+   "preco": 20.90,
+   "Vegano": true,
+   "Vegetariano": true
+   
+},
+
+{
+    "nome": "Hamburguer de Soja",
+    "descricao": "Pão, hamburguer de soja, acompanhado de queijo mussarela, tomate a alface",
+    "preco": 13.90,
+    "Vegetariano":true,
+    "Vegano": false
+ 
+}
+
+
+]
