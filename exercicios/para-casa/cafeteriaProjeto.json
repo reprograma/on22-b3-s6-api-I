@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Pão francês",
+        "descrição": "Farinha, água, sal e fermendo fazem desse pãozinho uma iguaria quente, crocante por fora e macio por dentro",
+        "preço": "2 reais a unidade",
+        "veganoOuVegetariano": "Vegano"
+    },
+
+    {
+        "nome": "Bolo mesclado",
+        "descrição": "Nosso bolo leva ingredientes de alta qualidade, e é uma delícia.",
+        "preço": "15 reais a unidade, 3 reais a fatia à parte",
+        "veganoOuVegetariano": "Vegetariano"
+    },
+
+    {
+        "nome": "Cafézinho da casa",
+        "descrição": "Nosso famoso café, feito com grãos moídos na hora e sem adição de açúcar.",
+        "preço": "3 reais o café pequeno, 5 reais o médio, 7 reais o grande",
+        "veganoOuVegetariano": "Vegano"
+    },
+
+    {
+        "nome": "Cappuccino especial",
+        "descrição": "Nosso cappuccino é feito de café expresso, leite, chocolate amargo e uma pitadinha de canela",
+        "preço": "7 reais o copo de 300ml",
+        "veganoOuVegetariano": "Vegetariano"
+    }
+
+]
