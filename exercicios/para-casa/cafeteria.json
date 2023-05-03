@@ -1,0 +1,45 @@
+[
+    {
+        "nome": "Chocolate quente (cremoso, com chantilly e com café)",
+        "descricao": "Bebida à base de leite vegetal",
+        "preco": 8.50,
+        "produtoVeganoOuVegetariano": true
+    },
+    
+    {
+        "nome": "Chás",
+        "descricao": "Quente ou Gelado, nos sabores: hibisco, maçã, ervas, gengibre e verde",
+        "preco": 5.50,
+        "produtoVeganoOuVegetariano": true
+    },
+    
+    {
+        "nome": "Café ",
+        "descricao": "Tipos: Expresso, Expresso Duplo, Longo, Americano, Com Leite e Cappuccino",
+        "preco": 6.00,
+        "produtoVeganoOuVegetariano": true
+    },
+    
+    {
+        "nome": "Sucos",
+        "descricao": "Bebidas nos sabores: morango, laranja, frutas vermelhas, maracujá, entre outros",
+        "preco": 6.50,
+        "produtoVeganoOuVegetariano": true
+    },
+    
+    {
+        "nome": "Milkshake",
+        "descricao": "Bebidas nos sabores: morango, café, chocolate e baunilha",
+        "preco": 12.70,
+        "produtoVeganoOuVegetariano": false
+    },
+    
+    {
+        "nome": "Cookies",
+        "descricao": "Sabores disponíveis: nutella, brigadeiro, doce de leite",
+        "preco": 7.00,
+        "produtoVeganoOuVegetariano": false
+    }
+    
+    
+    ]
