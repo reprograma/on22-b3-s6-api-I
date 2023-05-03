@@ -1,0 +1,12 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "- Nosso cliente é uma cafeteria que precisa de uma aplicação em NodeJS que exiba todos os itens do cardápio :coffee: :bread:",
+  "main": "cafeteria.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cafeteria.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

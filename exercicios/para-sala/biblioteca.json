@@ -1,23 +1,28 @@
 [
     {
-        "nome": "Codigo Limpo",
+        "nome": "Código Limpo",
         "autor": "Martin"
     },
-    {
-        "nome": "Longo e Claro Rio",
-        "autor": "Liz Moore"
+
+     {
+        "nome": "Javascript da Depressão",
+        "autor": "Nazaré"
     },
-    {
-        "nome": "O Nome do vento",
-        "autor": "Patrick Rothfuss"
+
+     {
+        "nome": "Programação para quem está feliz demais",
+        "autor": "Reprograma"
     },
-    {
-        "nome": "Duna",
-        "autor": "Frank Hebert"
+
+     {
+        "nome": "JSON fácil",
+        "autor": "Milena"
     },
-    {
-        "nome": "Torto Arado",
-        "autor": "Itamar Vieira Junior"
-    }
+
+     {
+        "nome": "Nodejs para iniciantes",
+        "autor": "Professora Milena"
+
+     }
 
 ]
