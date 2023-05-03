@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Café Chocofreaker",
+        "descricao": "Café extraforte, adoçado com calda de chocolate ao leite; 100ml",
+        "preco": "R$ 7,90",
+        "indicacaoalimentar": "vegetariano, contém lactose"
+    },
+    {
+        "nome": "Forro da Perdição",
+        "descricao": "Pão francês recheado com Copa Lombo Suíno desfiado ao molho de barbecue",
+        "preco": "R$ 21,90",
+        "indicacaoalimentar": "contém produtos de origem animal"
+    },
+    {
+        "nome": "Psychoshake",
+        "descricao": "Batida de leite, whey proten e fruta de sua preferência*; 300ml",
+        "preco": "R$ 16,90",
+        "indicacaoalimentar":"Produto disponível também na versão vegana"
+    },
+    {
+        "nome": "Café da bruxa",
+        "descricao": "Café simples",
+        "preco": "R$ 4,90",
+        "indicacaoalimentar": "vegan free"
+    },
+    {
+        "nome": "Bruxo Cheio",
+        "descricao": "Livre Self Service com opções diversas de café da manhã",
+        "preco": "RS 24, 90",
+        "indicacaoalimentar": "contém opção vegana"
+    }
+]
