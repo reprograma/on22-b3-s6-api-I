@@ -1,170 +1,178 @@
 [
-    [
-        {
-            "foodType": "coffee",
-            "name": "Coado",
-            "price": 3.5,
-            "description": "Café simples e tradicional, coado na hora.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Espresso",
-            "price": 4.0,
-            "description": "Forte e encorpado, com sabor intenso.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Latte",
-            "price": 6.0,
-            "description": "Café com leite cremoso, ideal para uma tarde tranquila.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Cappuccino",
-            "price": 7.5,   
-            "description": "Espresso com espuma de leite e chocolate em pó.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Mochaccino",
-            "price": 8.5,
-            "description": "Espresso, leite vaporizado cremoso e xarope de chocolate, resultando em um sabor único e equilibrado.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Affogato",
-            "price": 9.5,
-            "description": "Forte e intenso, servido com sorvete de baunilha cremoso.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Café com cardamomo",
-            "price": 8.5,
-            "description": "Espresso om um toque de cardamomo, para um sabor exótico.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "coffee",
-            "name": "Café com licor de amêndoas",
-            "price": 11.0,
-            "description": "Espresso com um toque de licor de amêndoas, para um sabor sofisticado e único.",
-            "isVegan": false,
-            "isVegetarian": true
-        }
-    ],
-    [
-        {
-            "foodType": "cake",
-            "name": "Torta de limão",
-            "price": 8.5,
-            "description": "Torta cremosa com o sabor cítrico e refrescante do limão.",
-            "isVegan": true,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "cake",
-            "name": "Torta de maçã",
-            "price": 9.5,
-            "description": "Torta clássica com pedaços de maçã e um toque de canela.",
-            "isVegan": true,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "cake",
-            "name": "Torta de chocolate",
-            "price": 10.0,
-            "description": "Torta intensa e cremosa de chocolate, perfeita para os chocólatras.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "cake",
-            "name": "Torta de cookies",
-            "price": 10.5,
-            "description": "Torta crocante com pedaços de cookies, ideal para os amantes de doces com textura.",
-            "isVegan": false,
-            "isVegetarian": true
-        }
-    ],
-    [
-        {
-            "foodType": "sandwich",
-            "name": "Sanduíche de peru e queijo",
-            "price": 9.0,
-            "description": "Sanduíche clássico com fatias de peru e queijo derretido, servido quente.",
-            "isVegan": false,
-            "isVegetarian": false
-        },
-        {
-            "foodType": "sandwich",
-            "name": "Sanduíche de frango e alface",
-            "price": 8.5,
-            "description": "Sanduíche saudável com fatias de frango grelhado e folhas de alface fresca.",
-            "isVegan": false,
-            "isVegetarian": false
-        },
-        {
-            "foodType": "sandwich",
-            "name": "Sanduíche de queijo e salada",
-            "price": 10.5,
-            "description": "Feito com queijo, cenoura, cabola, tomate e manionese, temperado e servido em pão integral.",
-            "isVegan": false,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "sandwich",
-            "name": "Sanduíche vegano de berinjela grelhada",
-            "price": 11.0,
-            "description": "Feito com fetias de berinjela grelhada, tomate e cebola, servido em pão integral.",
-            "isVegan": true,
-            "isVegetarian": true
-        }
-    ],
-    [
-        {
-            "foodType": "savory",
-            "name": "Coxinha de frango",
-            "price": 4.50,
-            "description": "Coxinha de frango com massa crocante e recheio suculento.",
-            "isVegan": false,
-            "isVegetarian": false
-        },
-        {
-            "foodType": "savory",
-            "name": "Pastel de carne",
-            "price": 3.50,
-            "description": "Pastel de carne com massa fina e recheio saboroso.",
-            "isVegan": false,
-            "isVegetarian": false
-        },
-        {
-            "foodType": "savory",
-            "name": "Esfiha de espinafre",
-            "price": 3.50,
-            "description": "Esfiha de espinafre com massa leve e recheio cremoso.",
-            "isVegan": true,
-            "isVegetarian": true
-        },
-        {
-            "foodType": "savory",
-            "name": "Coxinha de jaca",
-            "price": 4.50,
-            "description": "Coxinha de jaca com massa crocante e recheio saboroso.",
-            "isVegan": true,
-            "isVegetarian": true
-        }
-    ]
-]
+    {
+        "coffees": [
+            {
+                "foodType": "coffee",
+                "name": "Coado",
+                "price": 3.5,
+                "description": "Café simples e tradicional, coado na hora.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Espresso",
+                "price": 4.0,
+                "description": "Forte e encorpado, com sabor intenso.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Latte",
+                "price": 6.0,
+                "description": "Café com leite cremoso, ideal para uma tarde tranquila.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Cappuccino",
+                "price": 7.5,   
+                "description": "Espresso com espuma de leite e chocolate em pó.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Mochaccino",
+                "price": 8.5,
+                "description": "Espresso, leite vaporizado cremoso e xarope de chocolate, resultando em um sabor único e equilibrado.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Affogato",
+                "price": 9.5,
+                "description": "Forte e intenso, servido com sorvete de baunilha cremoso.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Café com cardamomo",
+                "price": 8.5,
+                "description": "Espresso om um toque de cardamomo, para um sabor exótico.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "coffee",
+                "name": "Café com licor de amêndoas",
+                "price": 11.0,
+                "description": "Espresso com um toque de licor de amêndoas, para um sabor sofisticado e único.",
+                "isVegan": false,
+                "isVegetarian": true
+            }
+        ]
+    },
+    {
+        "cakes": [
+            {
+                "foodType": "cake",
+                "name": "Torta de limão",
+                "price": 8.5,
+                "description": "Torta cremosa com o sabor cítrico e refrescante do limão.",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "cake",
+                "name": "Torta de maçã",
+                "price": 9.5,
+                "description": "Torta clássica com pedaços de maçã e um toque de canela.",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "cake",
+                "name": "Torta de chocolate",
+                "price": 10.0,
+                "description": "Torta intensa e cremosa de chocolate, perfeita para os chocólatras.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "cake",
+                "name": "Torta de cookies",
+                "price": 10.5,
+                "description": "Torta crocante com pedaços de cookies, ideal para os amantes de doces com textura.",
+                "isVegan": false,
+                "isVegetarian": true
+            }
+        ]
+    },  
+    {   
+        "sandwiches": [
+            {
+                "foodType": "sandwich",
+                "name": "Sanduíche de peru e queijo",
+                "price": 9.0,
+                "description": "Sanduíche clássico com fatias de peru e queijo derretido, servido quente.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "foodType": "sandwich",
+                "name": "Sanduíche de frango e alface",
+                "price": 8.5,
+                "description": "Sanduíche saudável com fatias de frango grelhado e folhas de alface fresca.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "foodType": "sandwich",
+                "name": "Sanduíche de queijo e salada",
+                "price": 10.5,
+                "description": "Feito com queijo, cenoura, cabola, tomate e manionese, temperado e servido em pão integral.",
+                "isVegan": false,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "sandwich",
+                "name": "Sanduíche vegano de berinjela grelhada",
+                "price": 11.0,
+                "description": "Feito com fetias de berinjela grelhada, tomate e cebola, servido em pão integral.",
+                "isVegan": true,
+                "isVegetarian": true
+            }
+        ]
+    },  
+    {   
+        "savories": [
+            {
+                "foodType": "savory",
+                "name": "Coxinha de frango",
+                "price": 4.50,
+                "description": "Coxinha de frango com massa crocante e recheio suculento.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "foodType": "savory",
+                "name": "Pastel de carne",
+                "price": 3.50,
+                "description": "Pastel de carne com massa fina e recheio saboroso.",
+                "isVegan": false,
+                "isVegetarian": false
+            },
+            {
+                "foodType": "savory",
+                "name": "Esfiha de espinafre",
+                "price": 3.50,
+                "description": "Esfiha de espinafre com massa leve e recheio cremoso.",
+                "isVegan": true,
+                "isVegetarian": true
+            },
+            {
+                "foodType": "savory",
+                "name": "Coxinha de jaca",
+                "price": 4.50,
+                "description": "Coxinha de jaca com massa crocante e recheio saboroso.",
+                "isVegan": true,
+                "isVegetarian": true
+            }
+        ]
+    }   
+]   

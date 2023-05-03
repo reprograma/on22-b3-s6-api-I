@@ -23,7 +23,7 @@ console.log(`
 4️⃣  Listar os sanduíches 🥪
 5️⃣  Listar os salgados 🥐
 
-Quando tiver escolhido seu pedido digite "ok"! \n...Logo um de nossos atendentes surgirá magicamente em sua mesa! 👀
+Quando tiver escolhido seu pedido apenas digite "ok" \n...Logo um de nossos atendentes surgirá magicamente em sua mesa! 👀
 `)
 
 
@@ -32,19 +32,19 @@ Quando tiver escolhido seu pedido digite "ok"! \n...Logo um de nossos atendentes
 rl.on('line', (input) => {
     switch (input) {
         case '1':
-            cafeteria.listarMenu()
+            cafeteria.listMenu()
             break
         case '2':
-            cafeteria.listarCafes()
+            cafeteria.listCoffees()
             break
         case '3':
-            cafeteria.listarTortas()
+            cafeteria.listCakes()
             break
         case '4':
-            cafeteria.listarSanduiches()
+            cafeteria.listSandwiches()
             break
         case '5':
-            cafeteria.listarSalgados()
+            cafeteria.listSavories()
             break
         case 'ok':
             console.log("🔜 Logo você vai poder fazer seu pedido! ❤️❤️")

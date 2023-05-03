@@ -1,6 +1,6 @@
-// Preferi criar uma certa modularidade, implementado a classe Cafeteria em um arquivo separado.
-// Também gostaria de apontar que há certa complexidade nos métodos pois o array menu é composto de subarrays.
-// Sei que a complexidade é desnecessária no caso, mas quis aproveitar para treinar o uso de métodos de arrays.
+// Preferi criar uma modularidade, implementado a classe Cafeteria em um arquivo separado.
+// Há certa complexidade nos métodos pois o array menu é composto de objetos com subarrays.
+// Quis aproveitar o exercício para treinar o uso de métodos de arrays.
 
 class Cafeteria{
 
@@ -9,16 +9,23 @@ class Cafeteria{
         this.menu = require("./menu.json")
     }
 
-    // Este método listarMenu() define um 'menuCompleto' que recebe como valor o resultado
-    // da iteração do .reduce() sobre o os subarrays 'this.menu'.
-    //
-    listarMenu() {
-        let menuCompleto = this.menu.reduce((acc, curItem) => {return acc.concat(curItem)}, [])
+    // Este método listMenu() declara um 'menuCompleto' cujo valor é o resultado da iteração do .reduce().
+    // Cada iteração percorre os objetos do 'menu' e, com um 'for...in', cria um subarray composto pelas
+    // chaves de cada objeto e insere ele no 'menuCompleto'.
+    // Feito isso, o forEach() itera sobre o 'menuCompleto', verifica se o item é vegano, adequa o valor
+    // da 'veganTemplate' e loga as informações no console.
+    listMenu() {
+        let menuCompleto = this.menu.reduce((acc, obj) => {
+            for(let chave in obj) {
+              let subarray = obj[chave]
+              acc.push(...subarray)
+            }
+            return acc
+          }, [])
 
         console.log("Aqui está nosso cardápio completo:\n")
       
         menuCompleto.forEach(item => {
-            
             let veganTemplate
             if(item.isVegan == true) {
                 veganTemplate = " Vegano ✓"
@@ -29,72 +36,54 @@ class Cafeteria{
         })
     }
 
-    listarCafes() {
-        let cafes = this.menu.flat().filter(item => item.foodType === "coffee")
-        let veganTemplate
+    // O listItems é um método genérico que criei para auxiliar os métodos de cada subcardápio. É chamado por cada um deles.
+    // Recebe como parâmetro um item. Tal como no listMenu(), o forEach() itera sobre o item, verifica se o item é vegano,
+    // adequa o valor da 'veganTemplate' e loga as informações no console.
+    listItems(item) {
+        item.forEach(item => {
+            let veganTemplate
+            if (item.isVegan == true) {
+                veganTemplate = "Vegano ✓"
+            } else {
+                veganTemplate = "Não é Vegano!"
+            }
+            console.log(`${item.name} - R$ ${item.price.toFixed(2)}\n${item.description} - ${veganTemplate}\n`)
+        });
+    }
 
+    // Cada um dos quatro métodos abaixo chama o listItems() com seu respectivo array como argumento.
+    // Os arrays de cada método são criados com um find() que está configurado para procurar nos objetos 
+    // do 'this.menu' o primeiro array cujo nome satisfaça a condição dada, e retorná-lo.
+    listCoffees() {
+        const coffees = this.menu.find(objeto => Object.keys(objeto)[0] === 'coffees')['coffees']
+        
         console.log("Aqui está nosso cardápio de cafés:\n")
-
-        cafes.forEach(cafe => {
-            
-            if (cafe.isVegan == true) {
-                veganTemplate = "Vegano ✓"
-            } else {
-                veganTemplate = "Não é Vegano!"
-            }
-            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)}\n${cafe.description} - ${veganTemplate}\n`)
-        })
+        
+        this.listItems(coffees)
     }
-
-    listarTortas() {
-        let cakes = this.menu.flat().filter(item => item.foodType === "cake")
-        let veganTemplate
       
+    listCakes() {
+        const cakes = this.menu.find(item => Object.keys(item)[0] === 'cakes')['cakes']
+        
         console.log("Aqui está nosso cardápio de tortas:\n")
-      
-        cakes.forEach(cake => {
-            
-            if (cake.isVegan == true) {
-                veganTemplate = "Vegana ✓"
-            } else {
-                veganTemplate = "Não é Vegana!"
-            }
-            console.log(`${cake.name} - R$ ${cake.price.toFixed(2)}\n${cake.description} - ${veganTemplate}\n`)
-        })
+        
+        this.listItems(cakes)
     }
 
-    listarSanduiches() {
-        let sandwiches = this.menu.flat().filter(item => item.foodType === "sandwich")
-        let veganTemplate
-      
-        console.log("Aqui está nosso cardápio de sanduíches:\n")
-      
-        sandwiches.forEach(sandwich => {
-            
-            if (sandwich.isVegan == true) {
-                veganTemplate = "Vegano ✓"
-            } else {
-                veganTemplate = "Não é Vegano!"
-            }
-            console.log(`${sandwich.name} - R$ ${sandwich.price.toFixed(2)}\n${sandwich.description} - ${veganTemplate}\n`)
-        })
+    listSandwiches() {
+        const sandwiches = this.menu.find(item => Object.keys(item)[0] === 'sandwiches')['sandwiches']
+        
+        console.log("Aqui está nosso cardápio de cafés:\n")
+        
+        this.listItems(sandwiches)
     }
-
-    listarSalgados() {
-        let savories = this.menu.flat().filter(item => item.foodType === "savory")
-        let veganTemplate
       
-        console.log("Aqui está nosso cardápio de sanduíches:\n")
-      
-        savories.forEach(savory => {
-            
-            if (savory.isVegan == true) {
-                veganTemplate = "Vegano ✓"
-            } else {
-                veganTemplate = "Não é Vegano!"
-            }
-            console.log(`${savory.name} - R$ ${savory.price.toFixed(2)}\n${savory.description} - ${veganTemplate}\n`)
-        })
+    listSavories() {
+        const savories = this.menu.find(item => Object.keys(item)[0] === 'savories')['savories']
+        
+        console.log("Aqui está nosso cardápio de tortas:\n")
+        
+        this.listItems(savories)
     }
 }
 
