@@ -68,9 +68,9 @@
         ]
     },
     {
-        "cakes": [
+        "pies": [
             {
-                "foodType": "cake",
+                "foodType": "pie",
                 "name": "Torta de limão",
                 "price": 8.5,
                 "description": "Torta cremosa com o sabor cítrico e refrescante do limão.",
@@ -78,7 +78,7 @@
                 "isVegetarian": true
             },
             {
-                "foodType": "cake",
+                "foodType": "pie",
                 "name": "Torta de maçã",
                 "price": 9.5,
                 "description": "Torta clássica com pedaços de maçã e um toque de canela.",
@@ -86,7 +86,7 @@
                 "isVegetarian": true
             },
             {
-                "foodType": "cake",
+                "foodType": "pie",
                 "name": "Torta de chocolate",
                 "price": 10.0,
                 "description": "Torta intensa e cremosa de chocolate, perfeita para os chocólatras.",
@@ -94,7 +94,7 @@
                 "isVegetarian": true
             },
             {
-                "foodType": "cake",
+                "foodType": "pie",
                 "name": "Torta de cookies",
                 "price": 10.5,
                 "description": "Torta crocante com pedaços de cookies, ideal para os amantes de doces com textura.",

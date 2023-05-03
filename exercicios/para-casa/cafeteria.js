@@ -53,12 +53,12 @@ class Cafeteria{
         this.listItems(coffees)
     }
       
-    listCakes() {
-        const cakes = this.menu.find(item => Object.keys(item)[0] === 'cakes')['cakes']
+    listPies() {
+        const pies = this.menu.find(item => Object.keys(item)[0] === 'pies')['pies']
         
         console.log("Aqui está nosso cardápio de tortas:\n")
         
-        this.listItems(cakes)
+        this.listItems(pies)
     }
 
     listSandwiches() {

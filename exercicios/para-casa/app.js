@@ -38,7 +38,7 @@ rl.on('line', (input) => {
             cafeteria.listCoffees()
             break
         case '3':
-            cafeteria.listCakes()
+            cafeteria.listPies()
             break
         case '4':
             cafeteria.listSandwiches()
