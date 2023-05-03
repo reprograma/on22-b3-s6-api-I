@@ -1,65 +1,67 @@
-const menu = require("./menu.json")
+// Declarações de chamada da Cafeteria.
+// Inicialização do readline e da interface.
+const Cafeteria = require('./cafeteria.js')
+const readline = require('readline')
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
 
-class Cafeteria{
-
-    constructor(name) {
-        this.name = name
-        this.menu = menu
-    }
-
-    listarMenu() {
-        let menuCompleto = []
-        
-        for (let categoria in menu) {
-            menuCompleto.push(...menu[categoria])
-        }
-      
-        console.log("Aqui está nosso cardápio completo:\n")
-      
-        menuCompleto.forEach(item => {
-            let veganTemplate
-            if(item.isVegan == true) {
-                veganTemplate = "- Vegano ✓"
-            } else {
-                veganTemplate = "- Não é Vegano!"
-            }
-            console.log(`${item.name} - Por: R$ ${item.price.toFixed(2)} ${veganTemplate}\n${item.description}\n`)
-        })
-    }
-
-    listarCafes() {
-        let cafes = this.menu.flat().filter(item => item.foodType === "coffee")
-        let veganTemplate
-
-        console.log("Aqui está nosso cardápio de cafés:\n")
-
-        cafes.forEach(cafe => {
-            if (cafe.isVegan == true) {
-                veganTemplate = "Vegano ✓"
-            } else {
-                veganTemplate = "Não é Vegano!"
-            }
-            console.log(`${cafe.name} - R$ ${cafe.price.toFixed(2)}\n${cafe.description} - ${veganTemplate}\n`)
-        })
-    }
-
-    listarSanduiches() {
-        let sandwiches = this.menu.flat().filter(item => item.foodType === "sandwich")
-        let veganTemplate
-      
-        console.log("Aqui está nosso cardápio de sanduíches:\n")
-      
-        sandwiches.forEach(sandwich => {
-            if (sandwich.isVegan == true) {
-                veganTemplate = "Vegano ✓"
-            } else {
-                veganTemplate = "Não é Vegano!"
-            }
-            console.log(`${sandwich.name} - R$ ${sandwich.price.toFixed(2)}\n${sandwich.description} - ${veganTemplate}\n`)
-        })
-    }   
-}
-
+// Instancia uma Cafeteria
 const cafeteria = new Cafeteria("Erika's Coffee Co.")
 
-cafeteria.listarCafes()
+// Loga nosso menu interativo no terminal :3
+console.log(`
+☕☕ Seja bem-vinde à nossa cafeteria! ☕☕
+
+🔔  Possuímos um cardápio interativo com várias opções!
+⌨️   Digite uma delas e dê enter para escolhê-la:
+
+1️⃣  Ver todos os itens do cardápio
+2️⃣  Listar os cafés ☕️
+3️⃣  Listar as tortas 🍰
+4️⃣  Listar os sanduíches 🥪
+5️⃣  Listar os salgados 🥐
+
+Quando tiver escolhido seu pedido digite "ok"! \n...Logo um de nossos atendentes surgirá magicamente em sua mesa! 👀
+`)
+
+
+// Implementa um switch/case que abrange cada opção de listagem do cardápio.
+// Permite também a saída da interface via uma das opções 'ok' || 'Ok' || 'OK'.
+rl.on('line', (input) => {
+    switch (input) {
+        case '1':
+            cafeteria.listarMenu()
+            break
+        case '2':
+            cafeteria.listarCafes()
+            break
+        case '3':
+            cafeteria.listarTortas()
+            break
+        case '4':
+            cafeteria.listarSanduiches()
+            break
+        case '5':
+            cafeteria.listarSalgados()
+            break
+        case 'ok':
+            console.log("🔜 Logo você vai poder fazer seu pedido! ❤️❤️")
+            rl.close()
+            break
+        case 'Ok':
+            console.log("🔜 Logo você vai poder fazer seu pedido! ❤️❤️")
+            rl.close()
+            break
+        case 'OK':
+            console.log("🔜 Logo você vai poder fazer seu pedido! ❤️❤️")
+            rl.close()
+            break
+                
+        default:
+            console.log("Nosso cardápio não possui essa opção... :(")
+            console.log("Siga nossos bots e digite uma opção válida! ;)")
+        }
+    }
+)
