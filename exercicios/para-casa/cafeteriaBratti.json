@@ -1,0 +1,52 @@
+
+[
+    {
+        "id": 1,
+        "nome": "Chocolate Quente",
+        "descricao": "Delicioso chocolate quente, cremoso e meio amargo. Sem adição de açucares e leite",
+        "preco":4.50,
+        "indicacao": "Vegano"
+    },
+    {
+        "id": 2,
+        "nome": "Pão na Chapa",
+        "descricao": "Maravilhoso pão francês passado margarina e selado da chapa quente",
+        "preco": 2.80,
+        "indicacao": "Vegetariano"
+    },
+    {
+        "id": 3,
+        "nome": "Café expresso",
+        "descricao": "Aromático café arábico torrado na hora e feito em cafeteria italiana",
+        "preco": 2.50,
+        "indicacao": "Vegano"
+    },
+    {
+        "id": 4,
+        "nome": "Torta de maçã",
+        "descricao": "Torça de maçã fresquinha, receita estilo americana com massa folhada",
+        "preco": 7.90,
+        "indicacao": "Guloseima calórica"    
+    },
+    {
+        "id": 5,
+        "nome": "Suco",
+        "descricao": "Suco fresquinho de fruta da sua escolha (frutas da estação)",
+        "preco": 4.99,
+        "indicacao": "Vegano e Vegetariano"
+    },
+    {
+        "id": 6,
+        "nome": "tapioca recheada",
+        "descricao": "Tapioca feita na hora, com cheio da sua escolha",
+        "preco": 7.90,
+        "indicacao": "Vegetariano"
+    },
+    {
+        "id": 7,
+        "nome": "Surubinha",
+        "descricao": "Baguete, selado na chapa, com requeijão, e coberto com 1 fatia de queijo prato e 1 fatia de queijo mussarela gratinadas",
+        "preco": 9.40,
+        "indicacao": "Guloseima calórica"
+    }
+]
