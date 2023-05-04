@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Codigo Limpo",
+        "autor": "Martin"
+    },
+    {   
+        "nome": "O desespero da iniciante em programação",
+        "autor": "Eu mesma"
+    },
+    { 
+        "nome": "Como manter a calma",
+        "autor": "A psicologa"
+    },
+    {
+        "nome": "Tá suave",
+        "autor": "Juca o calmo"
+    },
+    {
+        "nome": "Tome um banho de MAR pra se acalMAR",
+        "autor": "Deusa do mar"
+    }
+]
