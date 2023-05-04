@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Cafe",
+        "descricao": "Cafe puro",
+        "preco": "R$ 1,50",
+        "categoria": "Vegano"
+    },
+    {
+        "nome": "Mocha",
+        "descricao": "Cafe com leite, calda de chocolate e chantilly",
+        "preco": "R$ 14,00",
+        "categoria": "Vegetariano"
+    },
+    {
+        "nome": "Bolo de frutas",
+        "descricao": "Bolo de frutas sem glutem, vendido em fatias",
+        "preco": "R$ 8,00",
+        "categoria": "Vegetariano"
+    },
+    {
+        "nome": "Vitamina de abacate com melao",
+        "descricao": "Vitamina de abacate com melao, batida com leite de soja",
+        "preco": "R$ 12,00",
+        "categoria": "Vegano"
+    },
+    {
+        "nome": "Pao de milho",
+        "descricao": "Pao doce, feito de milho e coco ralado",
+        "preco": "R$ 3,00",
+        "categoria": "Vegetariano"
+    }
+]
