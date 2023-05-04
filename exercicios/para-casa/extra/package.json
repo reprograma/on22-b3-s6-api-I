@@ -1,0 +1,12 @@
+{
+  "name": "totem",
+  "version": "1.0.0",
+  "description": "Sistema de autoatendimento + pagamento",
+  "main": "totem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node totem.js" 
+  },
+  "author": "Maayrin",
+  "license": "ISC"
+}

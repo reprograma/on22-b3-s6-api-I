@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Espresso",
+        "descricao": "Passado na temperatura certa, como deve ser.",
+        "preco": 2.90,
+        "categoria": "B"
+        
+    },
+    {
+        "nome": "Matcha",
+        "descricao": "Famoso chá verde oriental com seu sabor inigualável. 400ml.",
+        "preco": 5.90,
+        "categoria": "B"
+    },
+    {
+        "nome": "Chocolate Quente",
+        "descricao": "Ótimo para dias frios.",
+        "preco": 6.90,
+        "categoria": "B"
+        
+    },
+    {
+        "nome": "Vitamina da Casa",
+        "descricao": "Saúde em copo à base de leite, banana, mamão, maçã com um toque de aveia e mel. 400ml.",
+        "preco": 8.90,
+        "categoria": "B"
+        
+    },
+    {
+        "nome": "Vitamina Vegana",
+        "descricao": "Saúde em copo à base de leite de amêndoas, banana, mamão, maçã com aveia. 400ml.",
+        "preco": 12.90,
+        "categoria": "B"
+        
+    },
+    {
+        "nome": "Irish Coffee",
+        "descricao": "Drink a base de café e whisky, ao estilo irlandês. Aprox. 300ml Obs: Por ser levemente alcóolico, poderá ser pedido documento para retirada ou consumo no local.",
+        "preco": 14.90,
+        "categoria": "B"
+    }
+]
