@@ -1,0 +1,66 @@
+[
+    {
+        "nome": "Pão de Queijo 10 unidades",
+        "descrição": "Copo com vários pãezinhos de queijo.",
+        "preço": "R$6,99",
+        "vegano": false
+        
+    },
+    {
+        "nome": "Coxinha",
+        "descrição": "Um clássico brasileiro, possui três opções de recheio: frango, calabresa e costela.",
+        "preço": "R$4,99",
+        "vegano": false
+
+    },
+    {
+        "nome": "Pão de batata",
+        "descrição": "Nosso delicioso pão de batata está disponível com diversos recheios: 4 queijos, calabresa, carne, frango.",
+        "preço": "R$4,99",
+        "vegano": false
+
+    },
+    {
+        "nome": "Brigadeirão",
+        "descrição": "O doce mais famoso desse querido Brasil, são 2 brigadeirões feitos sem nenhuma origem animal.",
+        "preço": "R$3,99",
+        "vegano": true
+
+    },
+    {
+        "nome": "Café americano",
+        "descrição": "Expresso suavizado com água quente.",
+        "preço": "R$4,90",
+        "vegano": true
+
+    },
+    {
+        "nome": "Café com leite",
+        "descrição": "Café preparado em filtro de papel com leite vaporizado",
+        "preço": "R$5,50",
+        "vegano": false 
+
+    },
+    {
+        "nome": "Doce de Leite Latte",
+        "descrição": "Leite vaporizado, calda de doce de leite, expresso, finalizado comc hantilly e calda de caramelo.",
+        "preço": "R$6,00",
+        "vegano": false
+
+    },
+    {
+        "nome": "Cappucino Tradicional",
+        "descrição": "Expresso com leite cremoso.",
+        "preço": "R$5,00",
+        "vegano": false
+
+    },
+    {
+        "nome": "Cappucino Chocolate",
+        "descrição": "Contém calda de chocolate, expresso e leite cremoso, com deliciosa cobertura de chocolate e chocolate em pó.",
+        "preço": "R$7,50",
+        "vegano": false
+
+    }
+
+]
