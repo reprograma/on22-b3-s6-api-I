@@ -1,0 +1,98 @@
+{
+    "CAFETERIA": {
+        "COMIDAS": [
+            {
+                "nome":"Pão com manteiga",
+                "descricao":"Pão tradicional, manteiga",
+                "preco": 1.99,
+                "indicacao": "não vegano/vegetariano"
+            },
+            {
+                "nome":"Pão com manteiga de coco",
+                "descricao":"Pão tradicional, manmteiga de coco",
+                "preco": 2.99,
+                "indicacao": "vegano" 
+            },
+            {
+                "nome":"Bolo formigueiro",
+                "descricao":"farinha, água, gotas de chocolate, ovo, essência de baunilha",
+                "preco":4.00,
+                "indicacao": "vegetariano"
+            },
+            {
+                "nome":"Misto quente",
+                "descricao":"pão de forma, presunto, muçarela, manteiga",
+                "preco": 3.50,
+                "indicacao": "não vegano/vegetariano"
+            },
+            {
+                "nome":"Coxinha",
+                "descricao":"farinha, caldo de galinha, peito de frango, molho de tomate, catupiry",
+                "preco": 4.00,
+                "indicacao": "não vegano/vegetariano"
+            },
+            {
+                "nome":"Coxinha de jaca",
+                "descricao":"farinha, caldo de legumes, jaca, molho de tomate, açafrão",
+                "preco": 5.50,
+                "indicacao": "vegano"
+            }
+        ],
+        "BEBIDAS": [
+            {
+                "nome":"Café com leite",
+                "descricao":"leite integral, café coado",
+                "preco": 2.50,
+                "indicacao": "não vegano/vegetariano"
+            },
+            {
+                "nome":"Café coado sem açúcar",
+                "descricao":"Pó de café, água",
+                "preco": 1.99,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Café com leite de amêndoas",
+                "descricao":"café coado, leite de amêndoas",
+                "preco": 1.99,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Leite com chocolate",
+                "descricao":"chocolate em pó 50%, leite integral",
+                "preco": 3.99,
+                "indicacao": "não vegano/vegetariano"
+            },
+            {
+                "nome":"Leite de amêndoas com chocolate",
+                "descricao":"chocolate em pó 50%, leite de amêndoas",
+                "preco": 1.99,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Suco natural de laranja com morango",
+                "descricao":"Laranjas em natura, polpa de morango",
+                "preco": 4.50,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Água mineral",
+                "descricao":"Água mineral",
+                "preco": 2.50,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Água mineral com gás",
+                "descricao":"Água mineral com gás",
+                "preco": 3.00,
+                "indicacao": "vegano"
+            },
+            {
+                "nome":"Refrigerantes 350ml (normal e diet)",
+                "descricao":"Sprite, Coca-cola, Pepsi, Guaraná, Fanta",
+                "preco": 3.00,
+                "indicacao": "vegetariano"
+            }
+        ]
+    }
+}
