@@ -1,0 +1,14 @@
+{
+  "name": "cafe-com-prosa",
+  "version": "1.0.0",
+  "description": "Uma API para cafeteria Café com Prosa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Francielly Kelly",
+  "license": "ISC",
+  "dependencies": {}, 
+  "devDependencies": {}
+}
