@@ -1,0 +1,57 @@
+[{
+   "nome":"Café Expresso duplo",
+   "descricao":"Delicioso café vegano, colhido nas serras mineiras, com notas de chocolate",
+   "preco": 15.00,
+   "vegano": true,
+   "vegetariano":true
+   
+},{
+   "nome":"Café Suave",
+   "descricao":"Café de torra média, com leve sabor frutal e toque suave",
+   "preco": 8.00,
+   "vegano": true ,
+   "vegetariano":true
+  
+},{
+   "nome":"Capuccino Sensacional",
+   "descricao":"Capuccino especial da casa, feito com nosso melhor café, toque de caramelo salgado, canela e cobertura de chantilly",
+   "preco":16.50,
+   "vegano":false ,
+   "vegetariano":true
+   
+   },{
+   "nome":"Torta de Frutas Vermelhas",
+   "descricao":"Deliciosa torta feita com massa de biscoito e recheiro de geleia caseira de frutas vemelhas e creme branco",
+   "preco": 16.00,
+   "vegano":false ,
+   "vegetariano":true
+   
+   },{
+   "nome":"Torta de Creme de Limão Siciliano",
+   "descricao":"Torta feita com massa de biscoito, delicioso creme de limão(especialidade da casa) e cobertura de merengue italiano",
+   "preco": 16.00,
+   "vegano":false,
+   "vegetariano":true
+  
+   },{
+   "nome":"Pão de Queijo",
+   "descricao":"Delicioso pão de queijo feito com o melhor queijo de Minas, o queijo canastra",
+   "preco":3.00,
+   "vegano":false ,
+   "vegetariano":true
+
+   },{
+    "nome":"Coxinha de Frango comum",
+   "descricao":"Coxinha de frango caseira fresquinha",
+   "preco":7.00,
+   "vegano":false ,
+   "vegetariano":false
+  
+   },{
+   "nome":"Coxinha de Franco com Catupiry",
+   "descricao":"Coxinha caseira, fresquinha, com catupiry",
+   "preco":9.00,
+   "vegano":false,
+   "vegetariano":false
+   
+   }]

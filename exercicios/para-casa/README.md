@@ -9,6 +9,9 @@ Instruções:
 - Cada item do cardápio tem que ter um _nome_, _descrição_, _preço_ e _uma indicação se o item é vegano ou vegetariano_. 
 - Todos os itens devem ser exibidos no console quando rodarmos a aplicação.
 - Fiquem à vontade para escolherem o nome que quiser para a nossa cafeteria cliente :blush:
+-Criar o projeto do zero com 'npm init' dentro da pasta para-casa
+-rodar o npm install
+-adicionar o 'script' de `start` no package.json
 
 - Criar o novo projeto do zero usando no `npm init` dentro da pasta para-casa
 - Rodar o `npm install` para gerar o `package-lock.json`
