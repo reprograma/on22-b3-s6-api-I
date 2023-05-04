@@ -1,0 +1,12 @@
+{
+  "name": "para-casa",
+  "version": "1.0.0",
+  "description": "## Nome do Exercicio",
+  "main": "cafeteria.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cafeteria.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
