@@ -1,5 +1,5 @@
 
-const cafeteria = require("./cafeteriaBratti.json")
+const cafeterias = require("./cafeteriaBratti.json")
 
 //cafeteria melhorada:
 
@@ -9,7 +9,7 @@ const cafeteria = require("./cafeteriaBratti.json")
         console.log("--------------------------------------") 
         console.log("Nosso Cardápio")
 
-cafeteria.forEach((cafeteria) =>{
+cafeterias.forEach((cafeteria) =>{
      
             console.log("--------------------------------------")
             console.log(`Código do Produto: ${cafeteria.id}`)
