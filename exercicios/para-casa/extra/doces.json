@@ -1,0 +1,35 @@
+[
+    {
+        "nome": "Petit Gateau",
+        "descricao": "Bolinho delicioso e cremoso com calda de chocolate e sorvete",
+        "preco": 10.90,
+        "categoria": "D"
+        
+    },
+    {
+        "nome": "Bolo de Banana",
+        "descricao": "Bolo caseiro de banana feito com receita da vovó",
+        "preco": 4.90,
+        "categoria": "D"
+    },
+    {
+        "nome": "Bolo de Matcha",
+        "descricao": "Delicioso, quentinho e acompanha sorvete",
+        "preco": 8.90,
+        "categoria": "D"
+    },
+    {
+        "nome": "Croissant",
+        "descricao": "Recheado com um delicioso creme de avelã e pistache",
+        "preco": 9.90,
+        "categoria": "D"
+        
+    },
+    {
+        "nome": "Dondurma",
+        "descricao": "Delicioso sorvete de origem turca",
+        "preco": 8.50,
+        "categoria": "D"
+        
+    }
+]

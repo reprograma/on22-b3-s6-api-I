@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Espresso",
+        "descricao": "O cafézinho Clássico.",
+        "preco": 2.00,
+        "Vegano": true
+    },
+    {
+        "nome": "Cappuccino",
+        "descricao": "O café contemporâneo.",
+        "preco": 4.50,
+        "Vegano": false
+    },
+    {
+        "nome": "Chocolate Quente",
+        "descricao": "Aconchegante nos dias frios como nenhum outro.",
+        "preco": 5.00,
+        "Vegano": false
+    },
+    {
+        "nome": "Matcha au Latte",
+        "descricao": "Chá verde clássico oriental com um toque de leite.",
+        "preco": 7.90,
+        "Vegano": false
+    },
+    {
+        "nome": "Pão de Queijo",
+        "descricao": "O queridinho, de Minas para o mundo todo!",
+        "preco": 4.00,
+        "Vegano": false
+    },
+    {
+        "nome": "Brownie chocolatoso",
+        "descricao": "O mais chocolatoso, sem lactose, e com nozes para fazer a magia no seu dia.",
+        "preco": 9.80,
+        "Vegano": true
+    }
+]

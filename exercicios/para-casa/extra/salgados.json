@@ -1,0 +1,36 @@
+[
+    {
+        "nome": "Pão de queijo",
+        "descricao": "Tradicional pão de queijo artesanal ao estilo mineiro",
+        "preco": 3.90,
+        "categoria": "S"
+        
+    },
+    {
+        "nome": "Enroladinho de Queijo",
+        "descricao": "Delicioso assado com massa folhada, queijo e orégano",
+        "preco": 6.50,
+        "categoria": "S"
+    },
+    {
+        "nome": "Croquete de Cogumelos",
+        "descricao": "Divino, recheado com queijo e temperado com carinho",
+        "preco": 5.50,
+        "categoria": "S"
+        
+    },
+    {
+        "nome": "Kibe de Abórora Assado",
+        "descricao": "Kibe caseiro de abóbora com temperos ao estilo sírio",
+        "preco": 7.90,
+        "categoria": "S"
+        
+    },
+    {
+        "nome": "Bruschetta",
+        "descricao": "Deliciosa, feita com tomates, queijo e manjericão fresquinhos",
+        "preco": 9.90,
+        "categoria": "S"
+        
+    }
+]
