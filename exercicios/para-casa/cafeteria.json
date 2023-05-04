@@ -1,0 +1,81 @@
+[
+    {
+        "nome": "café expresso tradicional",
+        "descrição": "Café preparado através da passagem de água quente, não fervente, sob alta pressão pelo café moído",
+        "preço": 15,
+        "vegano": "true",
+        "vegetariano": "true"
+    },
+    {
+        "nome": "Café Expresso Duplo",
+        "descrição": "Café preparado com duas doses regulares de café espresso",
+        "preço": "17",
+        "vegano": "true",
+        "vegetariano": "false"
+},    
+    {
+        "nome": "Capuccino",
+        "descrição": "Composto de café expresso, leite e espuma do leite",
+        "preço": 25,
+        "vegano": "false",
+        "vegetariano": "false"
+    },
+    {
+        "nome": "Café Latte",
+        "descrição": "Café espresso em menor quantidade, preenchido com leite vaporizado e espuma de leite",
+        "preço": 25,
+        "vegano": "false",
+        "vegetariano": "false"
+    },
+    {
+        "nome": "Macchiato",
+        "descrição":"Café espresso com apenas uma camada de espuma do leite por cima",
+        "preço": 28,
+        "vegano": "false",
+        "vegetariano": "false"
+    },
+    {
+        "nome": "Café com leite Tradicional",
+        "descrição": "Preparado a partir da mistura do café com leite",
+        "preço": 18,
+        "vegano": "false",
+        "vegetariano": "false"
+    },
+    {
+        "nome": "Chocolate quente",
+        "descrição": "Chocolate quente cremoso, com chantilly e com café",
+        "preço": 30,
+        "vegano": "false",
+        "vegetariano": "false"
+    }, 
+    {
+        "nome": "Café Longo",
+        "descrição": "Café expresso, servido especificamente em uma quantidade maior",
+        "preço": 20,
+        "vegano": "true",
+        "vegetariano":"true"
+    },
+    {
+        "nome": "Café Americano",
+        "descrição": "Feito em uma xícara de café espresso duplo com uma única dose de café espresso",
+        "preço": 20,
+        "vegano": "true",
+        "vegetariano": "true"
+
+    },
+    {
+        "nome": "Chá Matte",
+        "descrição": "Chá Mate natural, produzido com folhas de erva-mate de alta qualidade",
+        "preço": 17,
+        "vegano": "true",
+        "vegetariano": "true"
+    },
+    {
+        "nome": "Quentão",
+        "descrição": "Bebida quente tradicional do inverno, composta por vinho, gengibre, cravo-da-índia, laranja, limão e açúcar",
+        "preço": 35,
+        "vegano": "true",
+        "vegetariano":"true"
+    }
+
+]
