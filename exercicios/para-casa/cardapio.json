@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Café expresso",
+    "description": "Nosso delicioso café expresso.",
+    "price": 5,
+    "type": "vegano"
+  },
+  {
+    "name": "Pão na chapa com requeijão",
+    "description": "Pão francês com requeijão na chapa",
+    "price": 8,
+    "type": "vegetariano"
+  },
+  {
+    "name": "Macchiato",
+    "description": "Café expresso com uma pequena quantidade de leite",
+    "price": 10,
+    "type": "vegetariano"
+  },
+  {
+    "name": "Pudim de leite condensado",
+    "description": "Nosso delicioso pudim de leite de condensado",
+    "price": 13,
+    "type": "vegetariano"
+  },
+  {
+    "name": "Coxinha com Catupiry",
+    "description": "Coxinha de frango com catupiry",
+    "price": 10,
+    "type": null
+  },
+  {
+    "name": "Crepe com nutella e morango",
+    "description": "Crepe recheado com morango e nutella ",
+    "price": 18,
+    "type": "vegetariano"
+  },
+  {
+    "name": "Pão doce com coco",
+    "description": "Pão com doce de goiaba e coco",
+    "price": 3,
+    "type": "vegetariano"
+  }
+]
