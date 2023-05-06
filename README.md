@@ -272,6 +272,7 @@ Para instalar o NodeJS acesse [esse link](https://nodejs.org/pt-br/download)
 
 ### Links Úteis
 - [Saiba o que é JSON e como utilizar](https://www.alura.com.br/artigos/o-que-e-json)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [O que é HTTP?](https://tecnoblog.net/responde/o-que-e-http/)
 - [O que é o NPM?](https://www.hostinger.com.br/tutoriais/o-que-e-npm)
 - [Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
