@@ -3,41 +3,36 @@
         "nome": "Café Amendoado",
         "descricao":"Café preto sem açucar com leite de amendoas",
         "preco": "5.00",
-        "vegetariano": "true",
-        "vegano": "true"
-        
+        "vegetariano": true,
+        "vegano": true
     },
     {
         "nome": "Croissant Tradicional",
         "descricao": "croissant com queijo",
         "preco": "8.00",
-        "vegetariano": "true",
-        "vegano": "false"
-        
+        "vegetariano": true,
+        "vegano": false
     },
     {
         "nome": "Mil Folhas" ,
         "descriaoo": "Doce mil folhas recheado com creme pâtissière" ,
         "preco": "12.90",
-        "vegetariano": "true",
-        "vegano": "false"
-        
+        "vegetariano": true,
+        "vegano": false
     },
     {
         "nome": "Brownie afogado em doçura",
         "descricao": " 2 camadas de brownie em pedaços, 2 camadas de sorvete de creme, 2 camada de brigadeiro",
         "preco": "18.90",
-        "vegetariano": "true",
-        "vegano": "false"
-        
+        "vegetariano": true,
+        "vegano": false 
     },
     {
         "nome": " Quiche de camarão" ,
         "descricao": "Quiche recheada com queijo e camarão catupiry",
         "preco": "15.80",
-        "vegetariano": "false",
-        "vegano": "false"
-        
+        "vegetariano": false,
+        "vegano": false
     }
 
 ]
