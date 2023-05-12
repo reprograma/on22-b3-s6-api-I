@@ -1,0 +1,41 @@
+[
+    {
+        "nome" : "Mocha",
+        "descrição" : "O especial da casa, bebida feita  em camadas com base de molho de chocolate, leite vaporizado e um espresso curto.",
+        "preço" : "12.90"
+
+    },
+    {
+        "nome" : "Espresso Latte",
+        "descrição" : "Leite vaporizado e sua espuma, espresso curto derramado gentilmente furando a espuma sem se misturar ao leite.",
+        "preço" : "8.90"
+
+    },
+    {
+        "nome" : "Cappuccino Italiano",
+        "descrição" : "O cappuccino clássico. Espresso com leite vaporizado e polvilho de cacau.",
+        "preço" : "11.90"
+    },
+    {
+        "nome" : "Irish Coffee",
+        "descrição" : "Coquetel de café clássico feito com a mistura de whisky, açúcar mascavo e espresso, finalizado com cobertura de creme fresco em ponto cremoso. ",
+        "preço" : "17.90"
+    },
+
+    {
+         "nome" : "Sanduíches e Wraps"
+    },
+    {
+         "nome" : "Teriyaki (V)",
+         "descrição" : "Pão italiano branco, proteína vegetal misturada com molho Teriyaki, alface, tomate, pepino, pimentão e cebola roxa.",
+         "preço" : "21.90"
+    },
+    {
+         "nome" : "Croque Monsieur",
+         "descrição" : "Sanduiche quente feito com pão de fermentação natural, queijo cheddar (importado da Inglaterra) e presunto, e mais queijo no topo. ",
+         "preço" : "27.50"
+    }
+   
+]
+
+
