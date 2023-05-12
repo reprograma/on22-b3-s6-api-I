@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "nome" : "Codigo Limpo",
         "autor" : "Martin"
     },
@@ -18,6 +19,26 @@
     {
         "nome" : "A princesinha",
         "autor" : "Frances H. Burnett"
+=======
+        "nome": "Codigo Limpo",
+        "autor": "Martin"
+    },
+    {
+        "nome": "Longo e Claro Rio",
+        "autor": "Liz Moore"
+    },
+    {
+        "nome": "O Nome do vento",
+        "autor": "Patrick Rothfuss"
+    },
+    {
+        "nome": "Duna",
+        "autor": "Frank Hebert"
+    },
+    {
+        "nome": "Torto Arado",
+        "autor": "Itamar Vieira Junior"
+>>>>>>> a09d486f0bdda0f998c87add4f675021f0e28bfa
     }
 
 ]

@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "VEGANO",
+        "descricao": "Vegano"
+    },
+    {
+        "nome": "VEGETARIANO",
+        "descricao": "Vegetariano"
+    },
+    {
+        "nome": "CONTEM_GLUTEN",
+        "descricao": "Contém Gluten"
+    }
+]

@@ -1,6 +1,7 @@
 {
   "name": "para-sala",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Nessa aula vamos focar em criar aplicações usando NodeJS, e montar e manipular arquivos JSON.",
   "main": "index.js",
   "scripts": {
@@ -10,4 +11,14 @@
   "author": "",
   "license": "ISC"
  
+=======
+  "description": "## Nome do Exercicio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+>>>>>>> a09d486f0bdda0f998c87add4f675021f0e28bfa
 }
