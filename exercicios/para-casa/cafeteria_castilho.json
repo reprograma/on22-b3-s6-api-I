@@ -1,0 +1,36 @@
+[
+{
+    "id": 1,
+    "nome": "Sheik Delicia",
+    "descricao":"Batido de leite de aveia, banana, pasta de amendoim e gengibre",
+    "preco":4,
+    "tipo":"Vegano"
+},
+
+{
+    "id": 2,
+    "nome": "Lanchinho fit",
+    "descricao":"pão 14 graos, queijo branco, carne de soja e molho da casa",
+    "preco":3,
+    "tipo":"Vegetariano"
+
+},
+
+{
+    "id": 3,
+    "nome": "Cafechoco",
+    "descricao":"Batido de leite de amêndoa, café coado e cacau em pó",
+    "preco":4,
+    "tipo":"Vegano"
+},
+
+{
+    "id": 4,
+    "nome": "Torta queijada",
+    "descricao":"Mini torta recheada com frango, creme de queijo mussarela e queijo branco",
+    "preco":9,
+    "tipo":"Carnívoro"
+}
+
+] 
+
