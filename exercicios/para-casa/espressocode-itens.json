@@ -3,32 +3,32 @@
         "nome": "Café Espresso",
         "descricao": "Preparado por método de passagem de água quente, não fervente, sob alta pressão pelo café moído",
         "precototal": 6.0,
-        "indicacoesEspeciais": ["VEGANO"]
+        "indicacoesEspeciais": "Vegano"
         
     },
     {
         "nome": "Capuccino",
         "descricao": "Leite vaporizado com café espresso",
         "preco": 10.0,
-        "indicacoesEspeciais": ["VEGETARIANO"]
+        "indicacoesEspeciais": "Vegetariano"
     },
     {
         "nome": "Misto Quente",
         "descricao": "Pão de forma com queijo e presunto, prensado na chapa",
         "preco total": 15.0,
-        "indicacoesEspeciais": ["CONTEM_GLUTEN"]
+        "indicacoesEspeciais": "Contém glúten"
     },
     {
         "nome": "Pão com Ovo",
         "descricao": "Pão francês com ovo frito",
         "preco total": 15.0,
-        "indicacoesEspeciais": ["VEGETARIANO", "CONTEM_GLUTEN"]
+        "indicacoesEspeciais": "Contém glúten"
     },
     {
-        "nome": "Sanduíche do futuro",
-        "descricao": "Pão vegano, com tofu tostado, molho mostarda em mel, com rúcula",
+        "nome": "Cuscuz",
+        "descricao": "Farinha de milho flocada, cozida no vapor",
         "preco total": 20.0,
-        "indicacoesEspeciais": ["VEGANO", "CONTEM_GLUTEN"]
+        "indicacoesEspeciais": "Vegano"
     }
 ]
 
