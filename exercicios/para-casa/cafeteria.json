@@ -28,13 +28,13 @@
         "nome": "Sanduíche do futuro",
         "descricao": "Pão vegano, com tofu tostado, molho mostarda em mel, com rúcula",
         "preco total": 20.0,
-        "indicacoesEspeciais": ["VEGANO", "CONTEM GLUTEN", "Linha Especial"]
+        "indicacoesEspeciais": ["VEGANO", "CONTEM GLUTEN", "LINHA ESPECIAL"]
     },
     {
         "nome": "Milk-Shake de nutella",
         "descricao": "Nossa maior delícia!",
         "preco total": 22.0,
-        "indicacoesEspeciais": ["CONTEM GLUTEN","Linha Especial"]
+        "indicacoesEspeciais": ["CONTEM GLUTEN","LINHA ESPECIAL"]
     }
+    
 ]
-
