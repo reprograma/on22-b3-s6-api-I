@@ -1,14 +1,14 @@
 [
     {
         "nome": "VEGANO",
-        "descricao": "Vegano"
+        "descricao": "Produto não testado ou feito de animais! :D" 
+    },
+    {   "nome": "CONTEM GLUTEN",
+        "descricao": "ATENCAO ALERGICOS: Contem Glutem"
     },
     {
-        "nome": "VEGETARIANO",
-        "descricao": "Vegetariano"
-    },
-    {
-        "nome": "CONTEM_GLUTEN",
-        "descricao": "Contém Gluten"
+        "nome": "Linha Especial",
+        "descricao": "Esse produto é da nossa linha premium!"
     }
 ]
+
