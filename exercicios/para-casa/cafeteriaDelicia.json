@@ -1,0 +1,32 @@
+[
+    {
+        "nome":"Café Expresso",
+        "descricao":"Um café forte e encorpado",
+        "preco": 5.0,
+        "vegano": "sim",
+        "vegetariano": "sim"
+      },
+    {
+        "nome": "Cappuccino",
+        "descricao": "Café expresso com leite vaporizado e espuma de leite",
+        "preco": 6.0,
+        "vegano": "não",
+        "vegetariano": "sim"
+    },
+    {
+        "nome": "Pão de Queijo",
+        "descricao": "Pão de queijo tradicional mineiro",
+        "preco": 3.0,
+        "vegano": "não",
+        "vegetariano": "sim"
+    },
+    {
+        "nome": "Salada de Frutas",
+        "descricao": "Uma deliciosa combinação de frutas frescas",
+        "preco":5.00,
+        "vegano": "sim",
+        "vegetariano": "sim"
+    }    
+      
+]
+
