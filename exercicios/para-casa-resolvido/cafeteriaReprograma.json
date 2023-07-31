@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Pão carioquinha",
+        "descrição": "Farinha, água, sal e fermento, crocante e macio",
+        "preço": "3 reais cada um",
+        "veganoOuVegetariano": "Vegano"
+    },
+
+    {
+        "nome": "Bolo de milho",
+        "descrição": "O sabor do milho em forma de bolo.",
+        "preço": "25 reais cada.",
+        "veganoOuVegetariano": "Vegetariano"
+    },
+
+    {
+        "nome": "Café saboroso",
+        "descrição": "Um café feito com amor com gosto de café de mãe.",
+        "preço": "2 reais: café tamanho pequeno, 4 reais: tamanho médio, 6 reais: tamanho grande",
+        "veganoOuVegetariano": "Vegano"
+    },
+
+    {
+        "nome": "Cappuccino Vegetariano Saudável",
+        "descrição": "Feito de ingredientes naturais, orgânicos e sem adição de açúcar",
+        "preço": "9 reais a unidade, o copo é de 500ml",
+        "veganoOuVegetariano": "Vegetariano"
+    }
+
+]
